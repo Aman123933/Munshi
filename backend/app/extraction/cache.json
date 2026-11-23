@@ -1,0 +1,77 @@
+{
+  "8A: 3 absent - Kabir, Ayaan, Kavya. Covered Chapter 3 Linear Equations. Homework Ex 3.2.": {
+    "language": "en",
+    "llm_mode": "cached",
+    "fields": [
+      { "type": "class", "value": "8A", "quote": "8A" },
+      { "type": "stated_count", "value": "3", "quote": "3 absent" },
+      { "type": "absent_student", "value": "Kabir", "quote": "Kabir", "roman": "Kabir" },
+      { "type": "absent_student", "value": "Ayaan", "quote": "Ayaan", "roman": "Ayaan" },
+      { "type": "absent_student", "value": "Kavya", "quote": "Kavya", "roman": "Kavya" },
+      { "type": "topic", "value": "Covered Chapter 3 Linear Equations", "quote": "Covered Chapter 3 Linear Equations" },
+      { "type": "homework", "value": "Homework Ex 3.2", "quote": "Homework Ex 3.2" }
+    ]
+  },
+  "8B: 3 absent — Rohan, Aman, Pooja. Covered chapter 4. Homework Ex 4.2.": {
+    "language": "en",
+    "llm_mode": "cached",
+    "fields": [
+      { "type": "class", "value": "8B", "quote": "8B" },
+      { "type": "stated_count", "value": "3", "quote": "3 absent" },
+      { "type": "absent_student", "value": "Rohan", "quote": "Rohan", "roman": "Rohan" },
+      { "type": "absent_student", "value": "Aman", "quote": "Aman", "roman": "Aman" },
+      { "type": "absent_student", "value": "Pooja", "quote": "Pooja", "roman": "Pooja" },
+      { "type": "topic", "value": "Covered chapter 4", "quote": "Covered chapter 4" },
+      { "type": "homework", "value": "Homework Ex 4.2", "quote": "Homework Ex 4.2" }
+    ]
+  },
+  "8A में आज 3 अनुपस्थित - कबीर, अयान, काव्या। पाठ 4 पढ़ाया। गृहकार्य अभ्यास 4.1।": {
+    "language": "hi",
+    "llm_mode": "cached",
+    "fields": [
+      { "type": "class", "value": "8A", "quote": "8A" },
+      { "type": "date", "value": "2026-11-21", "quote": "आज" },
+      { "type": "stated_count", "value": "3", "quote": "3 अनुपस्थित" },
+      { "type": "absent_student", "value": "कबीर", "quote": "कबीर", "roman": "Kabir" },
+      { "type": "absent_student", "value": "अयान", "quote": "अयान", "roman": "Ayaan" },
+      { "type": "absent_student", "value": "काव्या", "quote": "काव्या", "roman": "Kavya" },
+      { "type": "topic", "value": "पाठ 4 पढ़ाया", "quote": "पाठ 4 पढ़ाया" },
+      { "type": "homework", "value": "गृहकार्य अभ्यास 4.1", "quote": "गृहकार्य अभ्यास 4.1" }
+    ]
+  },
+  "9A: 2 absent the - Arjun, Dev. Aaj chapter 5 Arithmetic Progressions padhaya. Homework exercise 5.1.": {
+    "language": "hinglish",
+    "llm_mode": "cached",
+    "fields": [
+      { "type": "class", "value": "9A", "quote": "9A" },
+      { "type": "stated_count", "value": "2", "quote": "2 absent the" },
+      { "type": "absent_student", "value": "Arjun", "quote": "Arjun", "roman": "Arjun" },
+      { "type": "absent_student", "value": "Dev", "quote": "Dev", "roman": "Dev" },
+      { "type": "topic", "value": "Aaj chapter 5 Arithmetic Progressions padhaya", "quote": "Aaj chapter 5 Arithmetic Progressions padhaya" },
+      { "type": "homework", "value": "Homework exercise 5.1", "quote": "Homework exercise 5.1" }
+    ]
+  },
+  "10A: All present today. Covered Chapter 6 Triangles. Homework Theorem 6.1 proof.": {
+    "language": "en",
+    "llm_mode": "cached",
+    "fields": [
+      { "type": "class", "value": "10A", "quote": "10A" },
+      { "type": "date", "value": "2026-11-21", "quote": "today" },
+      { "type": "stated_count", "value": "0", "quote": "All present" },
+      { "type": "topic", "value": "Covered Chapter 6 Triangles", "quote": "Covered Chapter 6 Triangles" },
+      { "type": "homework", "value": "Homework Theorem 6.1 proof", "quote": "Homework Theorem 6.1 proof" }
+    ]
+  },
+  "8A: 2 absent - Kabir Bansal, Kabir Mehta. Covered Chapter 7 Coordinate Geometry. Homework Ex 7.1.": {
+    "language": "en",
+    "llm_mode": "cached",
+    "fields": [
+      { "type": "class", "value": "8A", "quote": "8A" },
+      { "type": "stated_count", "value": "2", "quote": "2 absent" },
+      { "type": "absent_student", "value": "Kabir Bansal", "quote": "Kabir Bansal", "roman": "Kabir Bansal" },
+      { "type": "absent_student", "value": "Kabir Mehta", "quote": "Kabir Mehta", "roman": "Kabir Mehta" },
+      { "type": "topic", "value": "Covered Chapter 7 Coordinate Geometry", "quote": "Covered Chapter 7 Coordinate Geometry" },
+      { "type": "homework", "value": "Homework Ex 7.1", "quote": "Homework Ex 7.1" }
+    ]
+  }
+}
