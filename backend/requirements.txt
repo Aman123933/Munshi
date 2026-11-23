@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+rapidfuzz
+pandas
+numpy
+openpyxl
+google-genai
+python-jose[cryptography]
+python-multipart
+pytest
+httpx

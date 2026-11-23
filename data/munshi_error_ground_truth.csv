@@ -1,0 +1,14 @@
+record_id,error_type,column,original_value,injected_value,expected_detection
+REC0104,out_of_range_total,total_marks,51,108,Flag for teacher review; do not auto-correct or save
+REC0520,negative_theory_marks,theory_marks,64,-5,Flag for teacher review; do not auto-correct or save
+REC0553,theory_marks_above_max,theory_marks,52,95,Flag for teacher review; do not auto-correct or save
+REC0540,internal_marks_above_max,internal_marks,15,25,Flag for teacher review; do not auto-correct or save
+REC0039,missing_theory_marks,theory_marks,54,,Flag for teacher review; do not auto-correct or save
+REC0678,missing_internal_marks,internal_marks,20,,Flag for teacher review; do not auto-correct or save
+REC0345,non_numeric_theory_marks,theory_marks,71.0,Absent,Flag for teacher review; do not auto-correct or save
+REC0633,non_numeric_internal_marks,internal_marks,20.0,twenty,Flag for teacher review; do not auto-correct or save
+REC0135,total_mismatch,total_marks,53,60,Flag for teacher review; do not auto-correct or save
+REC0612,missing_total_marks,total_marks,67,,Flag for teacher review; do not auto-correct or save
+DUP001,duplicate_student_subject_record,"student_id, class, exam_type, subject",Unique record in clean file,Duplicate of REC0386,Flag duplicate record for teacher review
+DUP002,duplicate_student_subject_record,"student_id, class, exam_type, subject",Unique record in clean file,Duplicate of REC0158,Flag duplicate record for teacher review
+DUP003,duplicate_student_subject_record,"student_id, class, exam_type, subject",Unique record in clean file,Duplicate of REC0167,Flag duplicate record for teacher review

@@ -1,0 +1,701 @@
+record_id,student_id,roll_no,student_name,class,section,stream,academic_year,exam_type,subject,theory_marks,theory_max_marks,internal_marks,internal_max_marks,total_marks,total_max_marks,result_status
+REC0001,MUN0001,601,Manav Singh,6,A,General,2026-27,Half-Yearly,English,45,80,12,20,57,100,Pass
+REC0002,MUN0001,601,Manav Singh,6,A,General,2026-27,Half-Yearly,Hindi,61,80,10,20,71,100,Pass
+REC0003,MUN0001,601,Manav Singh,6,A,General,2026-27,Half-Yearly,Mathematics,46,80,15,20,61,100,Pass
+REC0004,MUN0001,601,Manav Singh,6,A,General,2026-27,Half-Yearly,Science,61,80,20,20,81,100,Pass
+REC0005,MUN0001,601,Manav Singh,6,A,General,2026-27,Half-Yearly,Social Science,50,80,14,20,64,100,Pass
+REC0006,MUN0002,602,Pooja Mehta,6,A,General,2026-27,Half-Yearly,English,45,80,11,20,56,100,Pass
+REC0007,MUN0002,602,Pooja Mehta,6,A,General,2026-27,Half-Yearly,Hindi,59,80,10,20,69,100,Pass
+REC0008,MUN0002,602,Pooja Mehta,6,A,General,2026-27,Half-Yearly,Mathematics,65,80,13,20,78,100,Pass
+REC0009,MUN0002,602,Pooja Mehta,6,A,General,2026-27,Half-Yearly,Science,47,80,17,20,64,100,Pass
+REC0010,MUN0002,602,Pooja Mehta,6,A,General,2026-27,Half-Yearly,Social Science,57,80,14,20,71,100,Pass
+REC0011,MUN0003,603,Saanvi Yadav,6,A,General,2026-27,Half-Yearly,English,49,80,13,20,62,100,Pass
+REC0012,MUN0003,603,Saanvi Yadav,6,A,General,2026-27,Half-Yearly,Hindi,36,80,20,20,56,100,Pass
+REC0013,MUN0003,603,Saanvi Yadav,6,A,General,2026-27,Half-Yearly,Mathematics,47,80,16,20,63,100,Pass
+REC0014,MUN0003,603,Saanvi Yadav,6,A,General,2026-27,Half-Yearly,Science,56,80,14,20,70,100,Pass
+REC0015,MUN0003,603,Saanvi Yadav,6,A,General,2026-27,Half-Yearly,Social Science,39,80,14,20,53,100,Pass
+REC0016,MUN0004,604,Simran Kapoor,6,A,General,2026-27,Half-Yearly,English,57,80,20,20,77,100,Pass
+REC0017,MUN0004,604,Simran Kapoor,6,A,General,2026-27,Half-Yearly,Hindi,67,80,16,20,83,100,Pass
+REC0018,MUN0004,604,Simran Kapoor,6,A,General,2026-27,Half-Yearly,Mathematics,78,80,18,20,96,100,Pass
+REC0019,MUN0004,604,Simran Kapoor,6,A,General,2026-27,Half-Yearly,Science,56,80,10,20,66,100,Pass
+REC0020,MUN0004,604,Simran Kapoor,6,A,General,2026-27,Half-Yearly,Social Science,42,80,14,20,56,100,Pass
+REC0021,MUN0005,605,Dev Joshi,6,A,General,2026-27,Half-Yearly,English,46,80,19,20,65,100,Pass
+REC0022,MUN0005,605,Dev Joshi,6,A,General,2026-27,Half-Yearly,Hindi,51,80,10,20,61,100,Pass
+REC0023,MUN0005,605,Dev Joshi,6,A,General,2026-27,Half-Yearly,Mathematics,41,80,19,20,60,100,Pass
+REC0024,MUN0005,605,Dev Joshi,6,A,General,2026-27,Half-Yearly,Science,62,80,15,20,77,100,Pass
+REC0025,MUN0005,605,Dev Joshi,6,A,General,2026-27,Half-Yearly,Social Science,55,80,16,20,71,100,Pass
+REC0026,MUN0006,606,Aarav Gupta,6,A,General,2026-27,Half-Yearly,English,73,80,18,20,91,100,Pass
+REC0027,MUN0006,606,Aarav Gupta,6,A,General,2026-27,Half-Yearly,Hindi,42,80,16,20,58,100,Pass
+REC0028,MUN0006,606,Aarav Gupta,6,A,General,2026-27,Half-Yearly,Mathematics,71,80,13,20,84,100,Pass
+REC0029,MUN0006,606,Aarav Gupta,6,A,General,2026-27,Half-Yearly,Science,51,80,10,20,61,100,Pass
+REC0030,MUN0006,606,Aarav Gupta,6,A,General,2026-27,Half-Yearly,Social Science,62,80,10,20,72,100,Pass
+REC0031,MUN0007,607,Saanvi Saini,6,A,General,2026-27,Half-Yearly,English,68,80,18,20,86,100,Pass
+REC0032,MUN0007,607,Saanvi Saini,6,A,General,2026-27,Half-Yearly,Hindi,78,80,20,20,98,100,Pass
+REC0033,MUN0007,607,Saanvi Saini,6,A,General,2026-27,Half-Yearly,Mathematics,47,80,15,20,62,100,Pass
+REC0034,MUN0007,607,Saanvi Saini,6,A,General,2026-27,Half-Yearly,Science,62,80,11,20,73,100,Pass
+REC0035,MUN0007,607,Saanvi Saini,6,A,General,2026-27,Half-Yearly,Social Science,77,80,15,20,92,100,Pass
+REC0036,MUN0008,608,Nisha Kumar,6,B,General,2026-27,Half-Yearly,English,74,80,15,20,89,100,Pass
+REC0037,MUN0008,608,Nisha Kumar,6,B,General,2026-27,Half-Yearly,Hindi,77,80,11,20,88,100,Pass
+REC0038,MUN0008,608,Nisha Kumar,6,B,General,2026-27,Half-Yearly,Mathematics,54,80,18,20,72,100,Pass
+REC0039,MUN0008,608,Nisha Kumar,6,B,General,2026-27,Half-Yearly,Science,54,80,20,20,74,100,Pass
+REC0040,MUN0008,608,Nisha Kumar,6,B,General,2026-27,Half-Yearly,Social Science,61,80,15,20,76,100,Pass
+REC0041,MUN0009,609,Saanvi Malhotra,6,B,General,2026-27,Half-Yearly,English,60,80,14,20,74,100,Pass
+REC0042,MUN0009,609,Saanvi Malhotra,6,B,General,2026-27,Half-Yearly,Hindi,70,80,12,20,82,100,Pass
+REC0043,MUN0009,609,Saanvi Malhotra,6,B,General,2026-27,Half-Yearly,Mathematics,47,80,16,20,63,100,Pass
+REC0044,MUN0009,609,Saanvi Malhotra,6,B,General,2026-27,Half-Yearly,Science,77,80,16,20,93,100,Pass
+REC0045,MUN0009,609,Saanvi Malhotra,6,B,General,2026-27,Half-Yearly,Social Science,78,80,12,20,90,100,Pass
+REC0046,MUN0010,610,Tanvi Sharma,6,A,General,2026-27,Half-Yearly,English,74,80,19,20,93,100,Pass
+REC0047,MUN0010,610,Tanvi Sharma,6,A,General,2026-27,Half-Yearly,Hindi,54,80,16,20,70,100,Pass
+REC0048,MUN0010,610,Tanvi Sharma,6,A,General,2026-27,Half-Yearly,Mathematics,70,80,10,20,80,100,Pass
+REC0049,MUN0010,610,Tanvi Sharma,6,A,General,2026-27,Half-Yearly,Science,54,80,14,20,68,100,Pass
+REC0050,MUN0010,610,Tanvi Sharma,6,A,General,2026-27,Half-Yearly,Social Science,48,80,16,20,64,100,Pass
+REC0051,MUN0011,611,Yash Joshi,6,B,General,2026-27,Half-Yearly,English,72,80,19,20,91,100,Pass
+REC0052,MUN0011,611,Yash Joshi,6,B,General,2026-27,Half-Yearly,Hindi,76,80,15,20,91,100,Pass
+REC0053,MUN0011,611,Yash Joshi,6,B,General,2026-27,Half-Yearly,Mathematics,64,80,17,20,81,100,Pass
+REC0054,MUN0011,611,Yash Joshi,6,B,General,2026-27,Half-Yearly,Science,63,80,20,20,83,100,Pass
+REC0055,MUN0011,611,Yash Joshi,6,B,General,2026-27,Half-Yearly,Social Science,48,80,18,20,66,100,Pass
+REC0056,MUN0012,612,Reyansh Yadav,6,A,General,2026-27,Half-Yearly,English,65,80,12,20,77,100,Pass
+REC0057,MUN0012,612,Reyansh Yadav,6,A,General,2026-27,Half-Yearly,Hindi,77,80,11,20,88,100,Pass
+REC0058,MUN0012,612,Reyansh Yadav,6,A,General,2026-27,Half-Yearly,Mathematics,53,80,18,20,71,100,Pass
+REC0059,MUN0012,612,Reyansh Yadav,6,A,General,2026-27,Half-Yearly,Science,77,80,20,20,97,100,Pass
+REC0060,MUN0012,612,Reyansh Yadav,6,A,General,2026-27,Half-Yearly,Social Science,74,80,15,20,89,100,Pass
+REC0061,MUN0013,613,Ayaan Chauhan,6,A,General,2026-27,Half-Yearly,English,40,80,13,20,53,100,Pass
+REC0062,MUN0013,613,Ayaan Chauhan,6,A,General,2026-27,Half-Yearly,Hindi,78,80,14,20,92,100,Pass
+REC0063,MUN0013,613,Ayaan Chauhan,6,A,General,2026-27,Half-Yearly,Mathematics,49,80,13,20,62,100,Pass
+REC0064,MUN0013,613,Ayaan Chauhan,6,A,General,2026-27,Half-Yearly,Science,44,80,10,20,54,100,Pass
+REC0065,MUN0013,613,Ayaan Chauhan,6,A,General,2026-27,Half-Yearly,Social Science,37,80,13,20,50,100,Pass
+REC0066,MUN0014,614,Vivaan Mishra,6,A,General,2026-27,Half-Yearly,English,65,80,19,20,84,100,Pass
+REC0067,MUN0014,614,Vivaan Mishra,6,A,General,2026-27,Half-Yearly,Hindi,39,80,17,20,56,100,Pass
+REC0068,MUN0014,614,Vivaan Mishra,6,A,General,2026-27,Half-Yearly,Mathematics,61,80,20,20,81,100,Pass
+REC0069,MUN0014,614,Vivaan Mishra,6,A,General,2026-27,Half-Yearly,Science,71,80,13,20,84,100,Pass
+REC0070,MUN0014,614,Vivaan Mishra,6,A,General,2026-27,Half-Yearly,Social Science,79,80,16,20,95,100,Pass
+REC0071,MUN0015,615,Diya Das,6,B,General,2026-27,Half-Yearly,English,66,80,16,20,82,100,Pass
+REC0072,MUN0015,615,Diya Das,6,B,General,2026-27,Half-Yearly,Hindi,50,80,12,20,62,100,Pass
+REC0073,MUN0015,615,Diya Das,6,B,General,2026-27,Half-Yearly,Mathematics,76,80,10,20,86,100,Pass
+REC0074,MUN0015,615,Diya Das,6,B,General,2026-27,Half-Yearly,Science,41,80,16,20,57,100,Pass
+REC0075,MUN0015,615,Diya Das,6,B,General,2026-27,Half-Yearly,Social Science,49,80,12,20,61,100,Pass
+REC0076,MUN0016,616,Tanvi Verma,6,B,General,2026-27,Half-Yearly,English,79,80,18,20,97,100,Pass
+REC0077,MUN0016,616,Tanvi Verma,6,B,General,2026-27,Half-Yearly,Hindi,64,80,10,20,74,100,Pass
+REC0078,MUN0016,616,Tanvi Verma,6,B,General,2026-27,Half-Yearly,Mathematics,70,80,13,20,83,100,Pass
+REC0079,MUN0016,616,Tanvi Verma,6,B,General,2026-27,Half-Yearly,Science,42,80,17,20,59,100,Pass
+REC0080,MUN0016,616,Tanvi Verma,6,B,General,2026-27,Half-Yearly,Social Science,43,80,17,20,60,100,Pass
+REC0081,MUN0017,617,Nisha Singh,6,B,General,2026-27,Half-Yearly,English,77,80,18,20,95,100,Pass
+REC0082,MUN0017,617,Nisha Singh,6,B,General,2026-27,Half-Yearly,Hindi,70,80,19,20,89,100,Pass
+REC0083,MUN0017,617,Nisha Singh,6,B,General,2026-27,Half-Yearly,Mathematics,55,80,17,20,72,100,Pass
+REC0084,MUN0017,617,Nisha Singh,6,B,General,2026-27,Half-Yearly,Science,74,80,18,20,92,100,Pass
+REC0085,MUN0017,617,Nisha Singh,6,B,General,2026-27,Half-Yearly,Social Science,62,80,18,20,80,100,Pass
+REC0086,MUN0018,618,Vivaan Kapoor,6,B,General,2026-27,Half-Yearly,English,63,80,12,20,75,100,Pass
+REC0087,MUN0018,618,Vivaan Kapoor,6,B,General,2026-27,Half-Yearly,Hindi,65,80,17,20,82,100,Pass
+REC0088,MUN0018,618,Vivaan Kapoor,6,B,General,2026-27,Half-Yearly,Mathematics,51,80,13,20,64,100,Pass
+REC0089,MUN0018,618,Vivaan Kapoor,6,B,General,2026-27,Half-Yearly,Science,75,80,14,20,89,100,Pass
+REC0090,MUN0018,618,Vivaan Kapoor,6,B,General,2026-27,Half-Yearly,Social Science,68,80,17,20,85,100,Pass
+REC0091,MUN0019,619,Rahul Kaur,6,B,General,2026-27,Half-Yearly,English,75,80,13,20,88,100,Pass
+REC0092,MUN0019,619,Rahul Kaur,6,B,General,2026-27,Half-Yearly,Hindi,52,80,17,20,69,100,Pass
+REC0093,MUN0019,619,Rahul Kaur,6,B,General,2026-27,Half-Yearly,Mathematics,39,80,14,20,53,100,Pass
+REC0094,MUN0019,619,Rahul Kaur,6,B,General,2026-27,Half-Yearly,Science,50,80,14,20,64,100,Pass
+REC0095,MUN0019,619,Rahul Kaur,6,B,General,2026-27,Half-Yearly,Social Science,56,80,15,20,71,100,Pass
+REC0096,MUN0020,620,Dev Kumar,6,A,General,2026-27,Half-Yearly,English,69,80,11,20,80,100,Pass
+REC0097,MUN0020,620,Dev Kumar,6,A,General,2026-27,Half-Yearly,Hindi,43,80,12,20,55,100,Pass
+REC0098,MUN0020,620,Dev Kumar,6,A,General,2026-27,Half-Yearly,Mathematics,49,80,16,20,65,100,Pass
+REC0099,MUN0020,620,Dev Kumar,6,A,General,2026-27,Half-Yearly,Science,79,80,12,20,91,100,Pass
+REC0100,MUN0020,620,Dev Kumar,6,A,General,2026-27,Half-Yearly,Social Science,48,80,11,20,59,100,Pass
+REC0101,MUN0021,701,Ananya Jain,7,B,General,2026-27,Half-Yearly,English,61,80,16,20,77,100,Pass
+REC0102,MUN0021,701,Ananya Jain,7,B,General,2026-27,Half-Yearly,Hindi,56,80,18,20,74,100,Pass
+REC0103,MUN0021,701,Ananya Jain,7,B,General,2026-27,Half-Yearly,Mathematics,64,80,16,20,80,100,Pass
+REC0104,MUN0021,701,Ananya Jain,7,B,General,2026-27,Half-Yearly,Science,38,80,13,20,51,100,Pass
+REC0105,MUN0021,701,Ananya Jain,7,B,General,2026-27,Half-Yearly,Social Science,61,80,16,20,77,100,Pass
+REC0106,MUN0022,702,Vivaan Jain,7,A,General,2026-27,Half-Yearly,English,72,80,10,20,82,100,Pass
+REC0107,MUN0022,702,Vivaan Jain,7,A,General,2026-27,Half-Yearly,Hindi,71,80,16,20,87,100,Pass
+REC0108,MUN0022,702,Vivaan Jain,7,A,General,2026-27,Half-Yearly,Mathematics,65,80,10,20,75,100,Pass
+REC0109,MUN0022,702,Vivaan Jain,7,A,General,2026-27,Half-Yearly,Science,57,80,14,20,71,100,Pass
+REC0110,MUN0022,702,Vivaan Jain,7,A,General,2026-27,Half-Yearly,Social Science,59,80,16,20,75,100,Pass
+REC0111,MUN0023,703,Rohan Mehta,7,B,General,2026-27,Half-Yearly,English,69,80,18,20,87,100,Pass
+REC0112,MUN0023,703,Rohan Mehta,7,B,General,2026-27,Half-Yearly,Hindi,73,80,13,20,86,100,Pass
+REC0113,MUN0023,703,Rohan Mehta,7,B,General,2026-27,Half-Yearly,Mathematics,66,80,13,20,79,100,Pass
+REC0114,MUN0023,703,Rohan Mehta,7,B,General,2026-27,Half-Yearly,Science,52,80,16,20,68,100,Pass
+REC0115,MUN0023,703,Rohan Mehta,7,B,General,2026-27,Half-Yearly,Social Science,66,80,10,20,76,100,Pass
+REC0116,MUN0024,704,Manav Das,7,A,General,2026-27,Half-Yearly,English,59,80,15,20,74,100,Pass
+REC0117,MUN0024,704,Manav Das,7,A,General,2026-27,Half-Yearly,Hindi,77,80,20,20,97,100,Pass
+REC0118,MUN0024,704,Manav Das,7,A,General,2026-27,Half-Yearly,Mathematics,60,80,12,20,72,100,Pass
+REC0119,MUN0024,704,Manav Das,7,A,General,2026-27,Half-Yearly,Science,64,80,12,20,76,100,Pass
+REC0120,MUN0024,704,Manav Das,7,A,General,2026-27,Half-Yearly,Social Science,74,80,18,20,92,100,Pass
+REC0121,MUN0025,705,Diya Das,7,A,General,2026-27,Half-Yearly,English,36,80,16,20,52,100,Pass
+REC0122,MUN0025,705,Diya Das,7,A,General,2026-27,Half-Yearly,Hindi,72,80,19,20,91,100,Pass
+REC0123,MUN0025,705,Diya Das,7,A,General,2026-27,Half-Yearly,Mathematics,77,80,10,20,87,100,Pass
+REC0124,MUN0025,705,Diya Das,7,A,General,2026-27,Half-Yearly,Science,40,80,20,20,60,100,Pass
+REC0125,MUN0025,705,Diya Das,7,A,General,2026-27,Half-Yearly,Social Science,62,80,12,20,74,100,Pass
+REC0126,MUN0026,706,Simran Mehta,7,A,General,2026-27,Half-Yearly,English,64,80,12,20,76,100,Pass
+REC0127,MUN0026,706,Simran Mehta,7,A,General,2026-27,Half-Yearly,Hindi,38,80,14,20,52,100,Pass
+REC0128,MUN0026,706,Simran Mehta,7,A,General,2026-27,Half-Yearly,Mathematics,59,80,15,20,74,100,Pass
+REC0129,MUN0026,706,Simran Mehta,7,A,General,2026-27,Half-Yearly,Science,48,80,17,20,65,100,Pass
+REC0130,MUN0026,706,Simran Mehta,7,A,General,2026-27,Half-Yearly,Social Science,55,80,15,20,70,100,Pass
+REC0131,MUN0027,707,Riya Patel,7,A,General,2026-27,Half-Yearly,English,59,80,14,20,73,100,Pass
+REC0132,MUN0027,707,Riya Patel,7,A,General,2026-27,Half-Yearly,Hindi,61,80,14,20,75,100,Pass
+REC0133,MUN0027,707,Riya Patel,7,A,General,2026-27,Half-Yearly,Mathematics,40,80,17,20,57,100,Pass
+REC0134,MUN0027,707,Riya Patel,7,A,General,2026-27,Half-Yearly,Science,36,80,18,20,54,100,Pass
+REC0135,MUN0027,707,Riya Patel,7,A,General,2026-27,Half-Yearly,Social Science,38,80,15,20,53,100,Pass
+REC0136,MUN0028,708,Ishita Malhotra,7,B,General,2026-27,Half-Yearly,English,49,80,20,20,69,100,Pass
+REC0137,MUN0028,708,Ishita Malhotra,7,B,General,2026-27,Half-Yearly,Hindi,39,80,20,20,59,100,Pass
+REC0138,MUN0028,708,Ishita Malhotra,7,B,General,2026-27,Half-Yearly,Mathematics,37,80,10,20,47,100,Pass
+REC0139,MUN0028,708,Ishita Malhotra,7,B,General,2026-27,Half-Yearly,Science,50,80,13,20,63,100,Pass
+REC0140,MUN0028,708,Ishita Malhotra,7,B,General,2026-27,Half-Yearly,Social Science,36,80,19,20,55,100,Pass
+REC0141,MUN0029,709,Reyansh Kapoor,7,A,General,2026-27,Half-Yearly,English,44,80,13,20,57,100,Pass
+REC0142,MUN0029,709,Reyansh Kapoor,7,A,General,2026-27,Half-Yearly,Hindi,43,80,17,20,60,100,Pass
+REC0143,MUN0029,709,Reyansh Kapoor,7,A,General,2026-27,Half-Yearly,Mathematics,77,80,11,20,88,100,Pass
+REC0144,MUN0029,709,Reyansh Kapoor,7,A,General,2026-27,Half-Yearly,Science,71,80,13,20,84,100,Pass
+REC0145,MUN0029,709,Reyansh Kapoor,7,A,General,2026-27,Half-Yearly,Social Science,64,80,14,20,78,100,Pass
+REC0146,MUN0030,710,Simran Chauhan,7,A,General,2026-27,Half-Yearly,English,58,80,12,20,70,100,Pass
+REC0147,MUN0030,710,Simran Chauhan,7,A,General,2026-27,Half-Yearly,Hindi,73,80,19,20,92,100,Pass
+REC0148,MUN0030,710,Simran Chauhan,7,A,General,2026-27,Half-Yearly,Mathematics,42,80,12,20,54,100,Pass
+REC0149,MUN0030,710,Simran Chauhan,7,A,General,2026-27,Half-Yearly,Science,54,80,11,20,65,100,Pass
+REC0150,MUN0030,710,Simran Chauhan,7,A,General,2026-27,Half-Yearly,Social Science,72,80,10,20,82,100,Pass
+REC0151,MUN0031,711,Saanvi Verma,7,B,General,2026-27,Half-Yearly,English,54,80,19,20,73,100,Pass
+REC0152,MUN0031,711,Saanvi Verma,7,B,General,2026-27,Half-Yearly,Hindi,78,80,16,20,94,100,Pass
+REC0153,MUN0031,711,Saanvi Verma,7,B,General,2026-27,Half-Yearly,Mathematics,60,80,13,20,73,100,Pass
+REC0154,MUN0031,711,Saanvi Verma,7,B,General,2026-27,Half-Yearly,Science,39,80,19,20,58,100,Pass
+REC0155,MUN0031,711,Saanvi Verma,7,B,General,2026-27,Half-Yearly,Social Science,79,80,20,20,99,100,Pass
+REC0156,MUN0032,712,Rohan Mehta,7,A,General,2026-27,Half-Yearly,English,50,80,11,20,61,100,Pass
+REC0157,MUN0032,712,Rohan Mehta,7,A,General,2026-27,Half-Yearly,Hindi,79,80,14,20,93,100,Pass
+REC0158,MUN0032,712,Rohan Mehta,7,A,General,2026-27,Half-Yearly,Mathematics,78,80,19,20,97,100,Pass
+REC0159,MUN0032,712,Rohan Mehta,7,A,General,2026-27,Half-Yearly,Science,42,80,19,20,61,100,Pass
+REC0160,MUN0032,712,Rohan Mehta,7,A,General,2026-27,Half-Yearly,Social Science,37,80,15,20,52,100,Pass
+REC0161,MUN0033,713,Arjun Rao,7,B,General,2026-27,Half-Yearly,English,69,80,16,20,85,100,Pass
+REC0162,MUN0033,713,Arjun Rao,7,B,General,2026-27,Half-Yearly,Hindi,77,80,15,20,92,100,Pass
+REC0163,MUN0033,713,Arjun Rao,7,B,General,2026-27,Half-Yearly,Mathematics,39,80,18,20,57,100,Pass
+REC0164,MUN0033,713,Arjun Rao,7,B,General,2026-27,Half-Yearly,Science,76,80,15,20,91,100,Pass
+REC0165,MUN0033,713,Arjun Rao,7,B,General,2026-27,Half-Yearly,Social Science,35,80,16,20,51,100,Pass
+REC0166,MUN0034,714,Arjun Bansal,7,B,General,2026-27,Half-Yearly,English,66,80,11,20,77,100,Pass
+REC0167,MUN0034,714,Arjun Bansal,7,B,General,2026-27,Half-Yearly,Hindi,62,80,15,20,77,100,Pass
+REC0168,MUN0034,714,Arjun Bansal,7,B,General,2026-27,Half-Yearly,Mathematics,75,80,17,20,92,100,Pass
+REC0169,MUN0034,714,Arjun Bansal,7,B,General,2026-27,Half-Yearly,Science,44,80,16,20,60,100,Pass
+REC0170,MUN0034,714,Arjun Bansal,7,B,General,2026-27,Half-Yearly,Social Science,46,80,18,20,64,100,Pass
+REC0171,MUN0035,715,Om Malhotra,7,A,General,2026-27,Half-Yearly,English,76,80,14,20,90,100,Pass
+REC0172,MUN0035,715,Om Malhotra,7,A,General,2026-27,Half-Yearly,Hindi,74,80,18,20,92,100,Pass
+REC0173,MUN0035,715,Om Malhotra,7,A,General,2026-27,Half-Yearly,Mathematics,65,80,17,20,82,100,Pass
+REC0174,MUN0035,715,Om Malhotra,7,A,General,2026-27,Half-Yearly,Science,62,80,19,20,81,100,Pass
+REC0175,MUN0035,715,Om Malhotra,7,A,General,2026-27,Half-Yearly,Social Science,52,80,15,20,67,100,Pass
+REC0176,MUN0036,716,Reyansh Yadav,7,A,General,2026-27,Half-Yearly,English,50,80,11,20,61,100,Pass
+REC0177,MUN0036,716,Reyansh Yadav,7,A,General,2026-27,Half-Yearly,Hindi,52,80,17,20,69,100,Pass
+REC0178,MUN0036,716,Reyansh Yadav,7,A,General,2026-27,Half-Yearly,Mathematics,50,80,17,20,67,100,Pass
+REC0179,MUN0036,716,Reyansh Yadav,7,A,General,2026-27,Half-Yearly,Science,71,80,19,20,90,100,Pass
+REC0180,MUN0036,716,Reyansh Yadav,7,A,General,2026-27,Half-Yearly,Social Science,77,80,16,20,93,100,Pass
+REC0181,MUN0037,717,Pooja Kapoor,7,B,General,2026-27,Half-Yearly,English,56,80,10,20,66,100,Pass
+REC0182,MUN0037,717,Pooja Kapoor,7,B,General,2026-27,Half-Yearly,Hindi,66,80,15,20,81,100,Pass
+REC0183,MUN0037,717,Pooja Kapoor,7,B,General,2026-27,Half-Yearly,Mathematics,46,80,17,20,63,100,Pass
+REC0184,MUN0037,717,Pooja Kapoor,7,B,General,2026-27,Half-Yearly,Science,48,80,15,20,63,100,Pass
+REC0185,MUN0037,717,Pooja Kapoor,7,B,General,2026-27,Half-Yearly,Social Science,51,80,15,20,66,100,Pass
+REC0186,MUN0038,718,Pooja Rao,7,B,General,2026-27,Half-Yearly,English,52,80,19,20,71,100,Pass
+REC0187,MUN0038,718,Pooja Rao,7,B,General,2026-27,Half-Yearly,Hindi,79,80,14,20,93,100,Pass
+REC0188,MUN0038,718,Pooja Rao,7,B,General,2026-27,Half-Yearly,Mathematics,70,80,10,20,80,100,Pass
+REC0189,MUN0038,718,Pooja Rao,7,B,General,2026-27,Half-Yearly,Science,68,80,13,20,81,100,Pass
+REC0190,MUN0038,718,Pooja Rao,7,B,General,2026-27,Half-Yearly,Social Science,40,80,13,20,53,100,Pass
+REC0191,MUN0039,719,Om Rao,7,B,General,2026-27,Half-Yearly,English,61,80,17,20,78,100,Pass
+REC0192,MUN0039,719,Om Rao,7,B,General,2026-27,Half-Yearly,Hindi,70,80,13,20,83,100,Pass
+REC0193,MUN0039,719,Om Rao,7,B,General,2026-27,Half-Yearly,Mathematics,79,80,17,20,96,100,Pass
+REC0194,MUN0039,719,Om Rao,7,B,General,2026-27,Half-Yearly,Science,76,80,17,20,93,100,Pass
+REC0195,MUN0039,719,Om Rao,7,B,General,2026-27,Half-Yearly,Social Science,63,80,10,20,73,100,Pass
+REC0196,MUN0040,720,Diya Jain,7,A,General,2026-27,Half-Yearly,English,40,80,14,20,54,100,Pass
+REC0197,MUN0040,720,Diya Jain,7,A,General,2026-27,Half-Yearly,Hindi,49,80,16,20,65,100,Pass
+REC0198,MUN0040,720,Diya Jain,7,A,General,2026-27,Half-Yearly,Mathematics,79,80,13,20,92,100,Pass
+REC0199,MUN0040,720,Diya Jain,7,A,General,2026-27,Half-Yearly,Science,54,80,20,20,74,100,Pass
+REC0200,MUN0040,720,Diya Jain,7,A,General,2026-27,Half-Yearly,Social Science,72,80,15,20,87,100,Pass
+REC0201,MUN0041,801,Kabir Bansal,8,A,General,2026-27,Half-Yearly,English,65,80,18,20,83,100,Pass
+REC0202,MUN0041,801,Kabir Bansal,8,A,General,2026-27,Half-Yearly,Hindi,68,80,15,20,83,100,Pass
+REC0203,MUN0041,801,Kabir Bansal,8,A,General,2026-27,Half-Yearly,Mathematics,62,80,18,20,80,100,Pass
+REC0204,MUN0041,801,Kabir Bansal,8,A,General,2026-27,Half-Yearly,Science,56,80,15,20,71,100,Pass
+REC0205,MUN0041,801,Kabir Bansal,8,A,General,2026-27,Half-Yearly,Social Science,79,80,17,20,96,100,Pass
+REC0206,MUN0042,802,Ayaan Verma,8,A,General,2026-27,Half-Yearly,English,52,80,14,20,66,100,Pass
+REC0207,MUN0042,802,Ayaan Verma,8,A,General,2026-27,Half-Yearly,Hindi,51,80,13,20,64,100,Pass
+REC0208,MUN0042,802,Ayaan Verma,8,A,General,2026-27,Half-Yearly,Mathematics,42,80,13,20,55,100,Pass
+REC0209,MUN0042,802,Ayaan Verma,8,A,General,2026-27,Half-Yearly,Science,55,80,11,20,66,100,Pass
+REC0210,MUN0042,802,Ayaan Verma,8,A,General,2026-27,Half-Yearly,Social Science,69,80,12,20,81,100,Pass
+REC0211,MUN0043,803,Aditya Patel,8,B,General,2026-27,Half-Yearly,English,47,80,13,20,60,100,Pass
+REC0212,MUN0043,803,Aditya Patel,8,B,General,2026-27,Half-Yearly,Hindi,65,80,14,20,79,100,Pass
+REC0213,MUN0043,803,Aditya Patel,8,B,General,2026-27,Half-Yearly,Mathematics,72,80,18,20,90,100,Pass
+REC0214,MUN0043,803,Aditya Patel,8,B,General,2026-27,Half-Yearly,Science,73,80,14,20,87,100,Pass
+REC0215,MUN0043,803,Aditya Patel,8,B,General,2026-27,Half-Yearly,Social Science,41,80,13,20,54,100,Pass
+REC0216,MUN0044,804,Riya Gupta,8,B,General,2026-27,Half-Yearly,English,53,80,13,20,66,100,Pass
+REC0217,MUN0044,804,Riya Gupta,8,B,General,2026-27,Half-Yearly,Hindi,58,80,12,20,70,100,Pass
+REC0218,MUN0044,804,Riya Gupta,8,B,General,2026-27,Half-Yearly,Mathematics,54,80,10,20,64,100,Pass
+REC0219,MUN0044,804,Riya Gupta,8,B,General,2026-27,Half-Yearly,Science,69,80,12,20,81,100,Pass
+REC0220,MUN0044,804,Riya Gupta,8,B,General,2026-27,Half-Yearly,Social Science,52,80,10,20,62,100,Pass
+REC0221,MUN0045,805,Rohan Kaur,8,B,General,2026-27,Half-Yearly,English,38,80,18,20,56,100,Pass
+REC0222,MUN0045,805,Rohan Kaur,8,B,General,2026-27,Half-Yearly,Hindi,53,80,12,20,65,100,Pass
+REC0223,MUN0045,805,Rohan Kaur,8,B,General,2026-27,Half-Yearly,Mathematics,75,80,17,20,92,100,Pass
+REC0224,MUN0045,805,Rohan Kaur,8,B,General,2026-27,Half-Yearly,Science,41,80,10,20,51,100,Pass
+REC0225,MUN0045,805,Rohan Kaur,8,B,General,2026-27,Half-Yearly,Social Science,71,80,14,20,85,100,Pass
+REC0226,MUN0046,806,Kabir Mehta,8,A,General,2026-27,Half-Yearly,English,65,80,17,20,82,100,Pass
+REC0227,MUN0046,806,Kabir Mehta,8,A,General,2026-27,Half-Yearly,Hindi,63,80,15,20,78,100,Pass
+REC0228,MUN0046,806,Kabir Mehta,8,A,General,2026-27,Half-Yearly,Mathematics,46,80,10,20,56,100,Pass
+REC0229,MUN0046,806,Kabir Mehta,8,A,General,2026-27,Half-Yearly,Science,51,80,17,20,68,100,Pass
+REC0230,MUN0046,806,Kabir Mehta,8,A,General,2026-27,Half-Yearly,Social Science,42,80,11,20,53,100,Pass
+REC0231,MUN0047,807,Simran Singh,8,B,General,2026-27,Half-Yearly,English,60,80,17,20,77,100,Pass
+REC0232,MUN0047,807,Simran Singh,8,B,General,2026-27,Half-Yearly,Hindi,39,80,19,20,58,100,Pass
+REC0233,MUN0047,807,Simran Singh,8,B,General,2026-27,Half-Yearly,Mathematics,75,80,20,20,95,100,Pass
+REC0234,MUN0047,807,Simran Singh,8,B,General,2026-27,Half-Yearly,Science,38,80,12,20,50,100,Pass
+REC0235,MUN0047,807,Simran Singh,8,B,General,2026-27,Half-Yearly,Social Science,44,80,19,20,63,100,Pass
+REC0236,MUN0048,808,Ayaan Chauhan,8,A,General,2026-27,Half-Yearly,English,54,80,11,20,65,100,Pass
+REC0237,MUN0048,808,Ayaan Chauhan,8,A,General,2026-27,Half-Yearly,Hindi,50,80,11,20,61,100,Pass
+REC0238,MUN0048,808,Ayaan Chauhan,8,A,General,2026-27,Half-Yearly,Mathematics,70,80,16,20,86,100,Pass
+REC0239,MUN0048,808,Ayaan Chauhan,8,A,General,2026-27,Half-Yearly,Science,73,80,19,20,92,100,Pass
+REC0240,MUN0048,808,Ayaan Chauhan,8,A,General,2026-27,Half-Yearly,Social Science,74,80,13,20,87,100,Pass
+REC0241,MUN0049,809,Kavya Joshi,8,A,General,2026-27,Half-Yearly,English,68,80,16,20,84,100,Pass
+REC0242,MUN0049,809,Kavya Joshi,8,A,General,2026-27,Half-Yearly,Hindi,63,80,17,20,80,100,Pass
+REC0243,MUN0049,809,Kavya Joshi,8,A,General,2026-27,Half-Yearly,Mathematics,54,80,19,20,73,100,Pass
+REC0244,MUN0049,809,Kavya Joshi,8,A,General,2026-27,Half-Yearly,Science,62,80,14,20,76,100,Pass
+REC0245,MUN0049,809,Kavya Joshi,8,A,General,2026-27,Half-Yearly,Social Science,71,80,19,20,90,100,Pass
+REC0246,MUN0050,810,Ishaan Sharma,8,B,General,2026-27,Half-Yearly,English,38,80,19,20,57,100,Pass
+REC0247,MUN0050,810,Ishaan Sharma,8,B,General,2026-27,Half-Yearly,Hindi,41,80,13,20,54,100,Pass
+REC0248,MUN0050,810,Ishaan Sharma,8,B,General,2026-27,Half-Yearly,Mathematics,75,80,13,20,88,100,Pass
+REC0249,MUN0050,810,Ishaan Sharma,8,B,General,2026-27,Half-Yearly,Science,51,80,20,20,71,100,Pass
+REC0250,MUN0050,810,Ishaan Sharma,8,B,General,2026-27,Half-Yearly,Social Science,40,80,12,20,52,100,Pass
+REC0251,MUN0051,811,Kabir Patel,8,A,General,2026-27,Half-Yearly,English,50,80,12,20,62,100,Pass
+REC0252,MUN0051,811,Kabir Patel,8,A,General,2026-27,Half-Yearly,Hindi,70,80,11,20,81,100,Pass
+REC0253,MUN0051,811,Kabir Patel,8,A,General,2026-27,Half-Yearly,Mathematics,45,80,10,20,55,100,Pass
+REC0254,MUN0051,811,Kabir Patel,8,A,General,2026-27,Half-Yearly,Science,61,80,17,20,78,100,Pass
+REC0255,MUN0051,811,Kabir Patel,8,A,General,2026-27,Half-Yearly,Social Science,79,80,19,20,98,100,Pass
+REC0256,MUN0052,812,Sneha Reddy,8,A,General,2026-27,Half-Yearly,English,65,80,14,20,79,100,Pass
+REC0257,MUN0052,812,Sneha Reddy,8,A,General,2026-27,Half-Yearly,Hindi,37,80,13,20,50,100,Pass
+REC0258,MUN0052,812,Sneha Reddy,8,A,General,2026-27,Half-Yearly,Mathematics,53,80,14,20,67,100,Pass
+REC0259,MUN0052,812,Sneha Reddy,8,A,General,2026-27,Half-Yearly,Science,79,80,17,20,96,100,Pass
+REC0260,MUN0052,812,Sneha Reddy,8,A,General,2026-27,Half-Yearly,Social Science,39,80,20,20,59,100,Pass
+REC0261,MUN0053,813,Aditya Das,8,A,General,2026-27,Half-Yearly,English,49,80,14,20,63,100,Pass
+REC0262,MUN0053,813,Aditya Das,8,A,General,2026-27,Half-Yearly,Hindi,75,80,19,20,94,100,Pass
+REC0263,MUN0053,813,Aditya Das,8,A,General,2026-27,Half-Yearly,Mathematics,77,80,13,20,90,100,Pass
+REC0264,MUN0053,813,Aditya Das,8,A,General,2026-27,Half-Yearly,Science,62,80,11,20,73,100,Pass
+REC0265,MUN0053,813,Aditya Das,8,A,General,2026-27,Half-Yearly,Social Science,69,80,13,20,82,100,Pass
+REC0266,MUN0054,814,Nisha Saini,8,A,General,2026-27,Half-Yearly,English,76,80,12,20,88,100,Pass
+REC0267,MUN0054,814,Nisha Saini,8,A,General,2026-27,Half-Yearly,Hindi,52,80,12,20,64,100,Pass
+REC0268,MUN0054,814,Nisha Saini,8,A,General,2026-27,Half-Yearly,Mathematics,39,80,10,20,49,100,Pass
+REC0269,MUN0054,814,Nisha Saini,8,A,General,2026-27,Half-Yearly,Science,45,80,14,20,59,100,Pass
+REC0270,MUN0054,814,Nisha Saini,8,A,General,2026-27,Half-Yearly,Social Science,73,80,19,20,92,100,Pass
+REC0271,MUN0055,815,Riya Chauhan,8,B,General,2026-27,Half-Yearly,English,53,80,17,20,70,100,Pass
+REC0272,MUN0055,815,Riya Chauhan,8,B,General,2026-27,Half-Yearly,Hindi,42,80,17,20,59,100,Pass
+REC0273,MUN0055,815,Riya Chauhan,8,B,General,2026-27,Half-Yearly,Mathematics,79,80,14,20,93,100,Pass
+REC0274,MUN0055,815,Riya Chauhan,8,B,General,2026-27,Half-Yearly,Science,79,80,16,20,95,100,Pass
+REC0275,MUN0055,815,Riya Chauhan,8,B,General,2026-27,Half-Yearly,Social Science,52,80,18,20,70,100,Pass
+REC0276,MUN0056,816,Aarav Singh,8,B,General,2026-27,Half-Yearly,English,69,80,17,20,86,100,Pass
+REC0277,MUN0056,816,Aarav Singh,8,B,General,2026-27,Half-Yearly,Hindi,63,80,11,20,74,100,Pass
+REC0278,MUN0056,816,Aarav Singh,8,B,General,2026-27,Half-Yearly,Mathematics,73,80,10,20,83,100,Pass
+REC0279,MUN0056,816,Aarav Singh,8,B,General,2026-27,Half-Yearly,Science,62,80,15,20,77,100,Pass
+REC0280,MUN0056,816,Aarav Singh,8,B,General,2026-27,Half-Yearly,Social Science,73,80,14,20,87,100,Pass
+REC0281,MUN0057,817,Om Reddy,8,A,General,2026-27,Half-Yearly,English,36,80,11,20,47,100,Pass
+REC0282,MUN0057,817,Om Reddy,8,A,General,2026-27,Half-Yearly,Hindi,49,80,20,20,69,100,Pass
+REC0283,MUN0057,817,Om Reddy,8,A,General,2026-27,Half-Yearly,Mathematics,71,80,19,20,90,100,Pass
+REC0284,MUN0057,817,Om Reddy,8,A,General,2026-27,Half-Yearly,Science,36,80,20,20,56,100,Pass
+REC0285,MUN0057,817,Om Reddy,8,A,General,2026-27,Half-Yearly,Social Science,52,80,19,20,71,100,Pass
+REC0286,MUN0058,818,Ananya Jain,8,A,General,2026-27,Half-Yearly,English,37,80,12,20,49,100,Pass
+REC0287,MUN0058,818,Ananya Jain,8,A,General,2026-27,Half-Yearly,Hindi,65,80,18,20,83,100,Pass
+REC0288,MUN0058,818,Ananya Jain,8,A,General,2026-27,Half-Yearly,Mathematics,76,80,17,20,93,100,Pass
+REC0289,MUN0058,818,Ananya Jain,8,A,General,2026-27,Half-Yearly,Science,52,80,12,20,64,100,Pass
+REC0290,MUN0058,818,Ananya Jain,8,A,General,2026-27,Half-Yearly,Social Science,72,80,16,20,88,100,Pass
+REC0291,MUN0059,819,Vivaan Bansal,8,A,General,2026-27,Half-Yearly,English,75,80,17,20,92,100,Pass
+REC0292,MUN0059,819,Vivaan Bansal,8,A,General,2026-27,Half-Yearly,Hindi,40,80,17,20,57,100,Pass
+REC0293,MUN0059,819,Vivaan Bansal,8,A,General,2026-27,Half-Yearly,Mathematics,57,80,16,20,73,100,Pass
+REC0294,MUN0059,819,Vivaan Bansal,8,A,General,2026-27,Half-Yearly,Science,56,80,15,20,71,100,Pass
+REC0295,MUN0059,819,Vivaan Bansal,8,A,General,2026-27,Half-Yearly,Social Science,77,80,11,20,88,100,Pass
+REC0296,MUN0060,820,Ayaan Kapoor,8,A,General,2026-27,Half-Yearly,English,45,80,15,20,60,100,Pass
+REC0297,MUN0060,820,Ayaan Kapoor,8,A,General,2026-27,Half-Yearly,Hindi,61,80,17,20,78,100,Pass
+REC0298,MUN0060,820,Ayaan Kapoor,8,A,General,2026-27,Half-Yearly,Mathematics,53,80,20,20,73,100,Pass
+REC0299,MUN0060,820,Ayaan Kapoor,8,A,General,2026-27,Half-Yearly,Science,60,80,18,20,78,100,Pass
+REC0300,MUN0060,820,Ayaan Kapoor,8,A,General,2026-27,Half-Yearly,Social Science,37,80,17,20,54,100,Pass
+REC0301,MUN0061,901,Aditya Bansal,9,A,General,2026-27,Half-Yearly,English,40,80,15,20,55,100,Pass
+REC0302,MUN0061,901,Aditya Bansal,9,A,General,2026-27,Half-Yearly,Hindi,51,80,15,20,66,100,Pass
+REC0303,MUN0061,901,Aditya Bansal,9,A,General,2026-27,Half-Yearly,Mathematics,42,80,16,20,58,100,Pass
+REC0304,MUN0061,901,Aditya Bansal,9,A,General,2026-27,Half-Yearly,Science,67,80,10,20,77,100,Pass
+REC0305,MUN0061,901,Aditya Bansal,9,A,General,2026-27,Half-Yearly,Social Science,77,80,18,20,95,100,Pass
+REC0306,MUN0062,902,Reyansh Saini,9,B,General,2026-27,Half-Yearly,English,64,80,16,20,80,100,Pass
+REC0307,MUN0062,902,Reyansh Saini,9,B,General,2026-27,Half-Yearly,Hindi,38,80,13,20,51,100,Pass
+REC0308,MUN0062,902,Reyansh Saini,9,B,General,2026-27,Half-Yearly,Mathematics,68,80,15,20,83,100,Pass
+REC0309,MUN0062,902,Reyansh Saini,9,B,General,2026-27,Half-Yearly,Science,74,80,17,20,91,100,Pass
+REC0310,MUN0062,902,Reyansh Saini,9,B,General,2026-27,Half-Yearly,Social Science,75,80,17,20,92,100,Pass
+REC0311,MUN0063,903,Arjun Kapoor,9,A,General,2026-27,Half-Yearly,English,38,80,13,20,51,100,Pass
+REC0312,MUN0063,903,Arjun Kapoor,9,A,General,2026-27,Half-Yearly,Hindi,52,80,18,20,70,100,Pass
+REC0313,MUN0063,903,Arjun Kapoor,9,A,General,2026-27,Half-Yearly,Mathematics,43,80,14,20,57,100,Pass
+REC0314,MUN0063,903,Arjun Kapoor,9,A,General,2026-27,Half-Yearly,Science,63,80,17,20,80,100,Pass
+REC0315,MUN0063,903,Arjun Kapoor,9,A,General,2026-27,Half-Yearly,Social Science,42,80,10,20,52,100,Pass
+REC0316,MUN0064,904,Yash Reddy,9,B,General,2026-27,Half-Yearly,English,75,80,19,20,94,100,Pass
+REC0317,MUN0064,904,Yash Reddy,9,B,General,2026-27,Half-Yearly,Hindi,50,80,12,20,62,100,Pass
+REC0318,MUN0064,904,Yash Reddy,9,B,General,2026-27,Half-Yearly,Mathematics,54,80,18,20,72,100,Pass
+REC0319,MUN0064,904,Yash Reddy,9,B,General,2026-27,Half-Yearly,Science,35,80,18,20,53,100,Pass
+REC0320,MUN0064,904,Yash Reddy,9,B,General,2026-27,Half-Yearly,Social Science,61,80,11,20,72,100,Pass
+REC0321,MUN0065,905,Simran Das,9,B,General,2026-27,Half-Yearly,English,49,80,11,20,60,100,Pass
+REC0322,MUN0065,905,Simran Das,9,B,General,2026-27,Half-Yearly,Hindi,64,80,11,20,75,100,Pass
+REC0323,MUN0065,905,Simran Das,9,B,General,2026-27,Half-Yearly,Mathematics,76,80,12,20,88,100,Pass
+REC0324,MUN0065,905,Simran Das,9,B,General,2026-27,Half-Yearly,Science,66,80,14,20,80,100,Pass
+REC0325,MUN0065,905,Simran Das,9,B,General,2026-27,Half-Yearly,Social Science,67,80,14,20,81,100,Pass
+REC0326,MUN0066,906,Om Saini,9,B,General,2026-27,Half-Yearly,English,61,80,17,20,78,100,Pass
+REC0327,MUN0066,906,Om Saini,9,B,General,2026-27,Half-Yearly,Hindi,65,80,13,20,78,100,Pass
+REC0328,MUN0066,906,Om Saini,9,B,General,2026-27,Half-Yearly,Mathematics,64,80,18,20,82,100,Pass
+REC0329,MUN0066,906,Om Saini,9,B,General,2026-27,Half-Yearly,Science,44,80,16,20,60,100,Pass
+REC0330,MUN0066,906,Om Saini,9,B,General,2026-27,Half-Yearly,Social Science,47,80,19,20,66,100,Pass
+REC0331,MUN0067,907,Aditi Jain,9,A,General,2026-27,Half-Yearly,English,67,80,12,20,79,100,Pass
+REC0332,MUN0067,907,Aditi Jain,9,A,General,2026-27,Half-Yearly,Hindi,39,80,14,20,53,100,Pass
+REC0333,MUN0067,907,Aditi Jain,9,A,General,2026-27,Half-Yearly,Mathematics,61,80,15,20,76,100,Pass
+REC0334,MUN0067,907,Aditi Jain,9,A,General,2026-27,Half-Yearly,Science,67,80,14,20,81,100,Pass
+REC0335,MUN0067,907,Aditi Jain,9,A,General,2026-27,Half-Yearly,Social Science,35,80,14,20,49,100,Pass
+REC0336,MUN0068,908,Vivaan Chauhan,9,A,General,2026-27,Half-Yearly,English,54,80,19,20,73,100,Pass
+REC0337,MUN0068,908,Vivaan Chauhan,9,A,General,2026-27,Half-Yearly,Hindi,72,80,20,20,92,100,Pass
+REC0338,MUN0068,908,Vivaan Chauhan,9,A,General,2026-27,Half-Yearly,Mathematics,66,80,12,20,78,100,Pass
+REC0339,MUN0068,908,Vivaan Chauhan,9,A,General,2026-27,Half-Yearly,Science,63,80,18,20,81,100,Pass
+REC0340,MUN0068,908,Vivaan Chauhan,9,A,General,2026-27,Half-Yearly,Social Science,65,80,15,20,80,100,Pass
+REC0341,MUN0069,909,Dev Kapoor,9,A,General,2026-27,Half-Yearly,English,56,80,18,20,74,100,Pass
+REC0342,MUN0069,909,Dev Kapoor,9,A,General,2026-27,Half-Yearly,Hindi,69,80,16,20,85,100,Pass
+REC0343,MUN0069,909,Dev Kapoor,9,A,General,2026-27,Half-Yearly,Mathematics,64,80,15,20,79,100,Pass
+REC0344,MUN0069,909,Dev Kapoor,9,A,General,2026-27,Half-Yearly,Science,47,80,13,20,60,100,Pass
+REC0345,MUN0069,909,Dev Kapoor,9,A,General,2026-27,Half-Yearly,Social Science,71,80,16,20,87,100,Pass
+REC0346,MUN0070,910,Dev Jain,9,A,General,2026-27,Half-Yearly,English,49,80,16,20,65,100,Pass
+REC0347,MUN0070,910,Dev Jain,9,A,General,2026-27,Half-Yearly,Hindi,37,80,15,20,52,100,Pass
+REC0348,MUN0070,910,Dev Jain,9,A,General,2026-27,Half-Yearly,Mathematics,65,80,16,20,81,100,Pass
+REC0349,MUN0070,910,Dev Jain,9,A,General,2026-27,Half-Yearly,Science,59,80,20,20,79,100,Pass
+REC0350,MUN0070,910,Dev Jain,9,A,General,2026-27,Half-Yearly,Social Science,76,80,12,20,88,100,Pass
+REC0351,MUN0071,911,Vivaan Verma,9,A,General,2026-27,Half-Yearly,English,66,80,10,20,76,100,Pass
+REC0352,MUN0071,911,Vivaan Verma,9,A,General,2026-27,Half-Yearly,Hindi,43,80,18,20,61,100,Pass
+REC0353,MUN0071,911,Vivaan Verma,9,A,General,2026-27,Half-Yearly,Mathematics,72,80,15,20,87,100,Pass
+REC0354,MUN0071,911,Vivaan Verma,9,A,General,2026-27,Half-Yearly,Science,41,80,17,20,58,100,Pass
+REC0355,MUN0071,911,Vivaan Verma,9,A,General,2026-27,Half-Yearly,Social Science,41,80,18,20,59,100,Pass
+REC0356,MUN0072,912,Vivaan Verma,9,B,General,2026-27,Half-Yearly,English,64,80,10,20,74,100,Pass
+REC0357,MUN0072,912,Vivaan Verma,9,B,General,2026-27,Half-Yearly,Hindi,44,80,16,20,60,100,Pass
+REC0358,MUN0072,912,Vivaan Verma,9,B,General,2026-27,Half-Yearly,Mathematics,76,80,12,20,88,100,Pass
+REC0359,MUN0072,912,Vivaan Verma,9,B,General,2026-27,Half-Yearly,Science,39,80,17,20,56,100,Pass
+REC0360,MUN0072,912,Vivaan Verma,9,B,General,2026-27,Half-Yearly,Social Science,51,80,15,20,66,100,Pass
+REC0361,MUN0073,913,Vivaan Saini,9,A,General,2026-27,Half-Yearly,English,74,80,16,20,90,100,Pass
+REC0362,MUN0073,913,Vivaan Saini,9,A,General,2026-27,Half-Yearly,Hindi,76,80,11,20,87,100,Pass
+REC0363,MUN0073,913,Vivaan Saini,9,A,General,2026-27,Half-Yearly,Mathematics,56,80,20,20,76,100,Pass
+REC0364,MUN0073,913,Vivaan Saini,9,A,General,2026-27,Half-Yearly,Science,69,80,16,20,85,100,Pass
+REC0365,MUN0073,913,Vivaan Saini,9,A,General,2026-27,Half-Yearly,Social Science,55,80,20,20,75,100,Pass
+REC0366,MUN0074,914,Reyansh Bansal,9,A,General,2026-27,Half-Yearly,English,66,80,18,20,84,100,Pass
+REC0367,MUN0074,914,Reyansh Bansal,9,A,General,2026-27,Half-Yearly,Hindi,37,80,19,20,56,100,Pass
+REC0368,MUN0074,914,Reyansh Bansal,9,A,General,2026-27,Half-Yearly,Mathematics,39,80,13,20,52,100,Pass
+REC0369,MUN0074,914,Reyansh Bansal,9,A,General,2026-27,Half-Yearly,Science,75,80,20,20,95,100,Pass
+REC0370,MUN0074,914,Reyansh Bansal,9,A,General,2026-27,Half-Yearly,Social Science,53,80,13,20,66,100,Pass
+REC0371,MUN0075,915,Nisha Yadav,9,B,General,2026-27,Half-Yearly,English,40,80,16,20,56,100,Pass
+REC0372,MUN0075,915,Nisha Yadav,9,B,General,2026-27,Half-Yearly,Hindi,41,80,20,20,61,100,Pass
+REC0373,MUN0075,915,Nisha Yadav,9,B,General,2026-27,Half-Yearly,Mathematics,41,80,17,20,58,100,Pass
+REC0374,MUN0075,915,Nisha Yadav,9,B,General,2026-27,Half-Yearly,Science,45,80,14,20,59,100,Pass
+REC0375,MUN0075,915,Nisha Yadav,9,B,General,2026-27,Half-Yearly,Social Science,36,80,10,20,46,100,Pass
+REC0376,MUN0076,916,Saanvi Bansal,9,B,General,2026-27,Half-Yearly,English,55,80,10,20,65,100,Pass
+REC0377,MUN0076,916,Saanvi Bansal,9,B,General,2026-27,Half-Yearly,Hindi,53,80,15,20,68,100,Pass
+REC0378,MUN0076,916,Saanvi Bansal,9,B,General,2026-27,Half-Yearly,Mathematics,58,80,16,20,74,100,Pass
+REC0379,MUN0076,916,Saanvi Bansal,9,B,General,2026-27,Half-Yearly,Science,44,80,13,20,57,100,Pass
+REC0380,MUN0076,916,Saanvi Bansal,9,B,General,2026-27,Half-Yearly,Social Science,68,80,16,20,84,100,Pass
+REC0381,MUN0077,917,Arjun Singh,9,A,General,2026-27,Half-Yearly,English,71,80,20,20,91,100,Pass
+REC0382,MUN0077,917,Arjun Singh,9,A,General,2026-27,Half-Yearly,Hindi,46,80,12,20,58,100,Pass
+REC0383,MUN0077,917,Arjun Singh,9,A,General,2026-27,Half-Yearly,Mathematics,46,80,11,20,57,100,Pass
+REC0384,MUN0077,917,Arjun Singh,9,A,General,2026-27,Half-Yearly,Science,74,80,16,20,90,100,Pass
+REC0385,MUN0077,917,Arjun Singh,9,A,General,2026-27,Half-Yearly,Social Science,74,80,20,20,94,100,Pass
+REC0386,MUN0078,918,Simran Joshi,9,B,General,2026-27,Half-Yearly,English,50,80,17,20,67,100,Pass
+REC0387,MUN0078,918,Simran Joshi,9,B,General,2026-27,Half-Yearly,Hindi,72,80,12,20,84,100,Pass
+REC0388,MUN0078,918,Simran Joshi,9,B,General,2026-27,Half-Yearly,Mathematics,49,80,17,20,66,100,Pass
+REC0389,MUN0078,918,Simran Joshi,9,B,General,2026-27,Half-Yearly,Science,75,80,14,20,89,100,Pass
+REC0390,MUN0078,918,Simran Joshi,9,B,General,2026-27,Half-Yearly,Social Science,64,80,14,20,78,100,Pass
+REC0391,MUN0079,919,Meera Joshi,9,B,General,2026-27,Half-Yearly,English,77,80,10,20,87,100,Pass
+REC0392,MUN0079,919,Meera Joshi,9,B,General,2026-27,Half-Yearly,Hindi,64,80,14,20,78,100,Pass
+REC0393,MUN0079,919,Meera Joshi,9,B,General,2026-27,Half-Yearly,Mathematics,78,80,18,20,96,100,Pass
+REC0394,MUN0079,919,Meera Joshi,9,B,General,2026-27,Half-Yearly,Science,45,80,11,20,56,100,Pass
+REC0395,MUN0079,919,Meera Joshi,9,B,General,2026-27,Half-Yearly,Social Science,63,80,15,20,78,100,Pass
+REC0396,MUN0080,920,Sneha Verma,9,A,General,2026-27,Half-Yearly,English,72,80,14,20,86,100,Pass
+REC0397,MUN0080,920,Sneha Verma,9,A,General,2026-27,Half-Yearly,Hindi,75,80,16,20,91,100,Pass
+REC0398,MUN0080,920,Sneha Verma,9,A,General,2026-27,Half-Yearly,Mathematics,79,80,14,20,93,100,Pass
+REC0399,MUN0080,920,Sneha Verma,9,A,General,2026-27,Half-Yearly,Science,64,80,14,20,78,100,Pass
+REC0400,MUN0080,920,Sneha Verma,9,A,General,2026-27,Half-Yearly,Social Science,47,80,16,20,63,100,Pass
+REC0401,MUN0081,1001,Ananya Mishra,10,B,General,2026-27,Half-Yearly,English,65,80,11,20,76,100,Pass
+REC0402,MUN0081,1001,Ananya Mishra,10,B,General,2026-27,Half-Yearly,Hindi,50,80,16,20,66,100,Pass
+REC0403,MUN0081,1001,Ananya Mishra,10,B,General,2026-27,Half-Yearly,Mathematics,71,80,15,20,86,100,Pass
+REC0404,MUN0081,1001,Ananya Mishra,10,B,General,2026-27,Half-Yearly,Science,71,80,14,20,85,100,Pass
+REC0405,MUN0081,1001,Ananya Mishra,10,B,General,2026-27,Half-Yearly,Social Science,79,80,14,20,93,100,Pass
+REC0406,MUN0082,1002,Tanvi Singh,10,A,General,2026-27,Half-Yearly,English,36,80,20,20,56,100,Pass
+REC0407,MUN0082,1002,Tanvi Singh,10,A,General,2026-27,Half-Yearly,Hindi,60,80,14,20,74,100,Pass
+REC0408,MUN0082,1002,Tanvi Singh,10,A,General,2026-27,Half-Yearly,Mathematics,35,80,19,20,54,100,Pass
+REC0409,MUN0082,1002,Tanvi Singh,10,A,General,2026-27,Half-Yearly,Science,78,80,10,20,88,100,Pass
+REC0410,MUN0082,1002,Tanvi Singh,10,A,General,2026-27,Half-Yearly,Social Science,73,80,17,20,90,100,Pass
+REC0411,MUN0083,1003,Arjun Kumar,10,B,General,2026-27,Half-Yearly,English,53,80,13,20,66,100,Pass
+REC0412,MUN0083,1003,Arjun Kumar,10,B,General,2026-27,Half-Yearly,Hindi,73,80,15,20,88,100,Pass
+REC0413,MUN0083,1003,Arjun Kumar,10,B,General,2026-27,Half-Yearly,Mathematics,49,80,20,20,69,100,Pass
+REC0414,MUN0083,1003,Arjun Kumar,10,B,General,2026-27,Half-Yearly,Science,47,80,19,20,66,100,Pass
+REC0415,MUN0083,1003,Arjun Kumar,10,B,General,2026-27,Half-Yearly,Social Science,51,80,20,20,71,100,Pass
+REC0416,MUN0084,1004,Aditya Joshi,10,A,General,2026-27,Half-Yearly,English,77,80,20,20,97,100,Pass
+REC0417,MUN0084,1004,Aditya Joshi,10,A,General,2026-27,Half-Yearly,Hindi,43,80,20,20,63,100,Pass
+REC0418,MUN0084,1004,Aditya Joshi,10,A,General,2026-27,Half-Yearly,Mathematics,41,80,20,20,61,100,Pass
+REC0419,MUN0084,1004,Aditya Joshi,10,A,General,2026-27,Half-Yearly,Science,76,80,10,20,86,100,Pass
+REC0420,MUN0084,1004,Aditya Joshi,10,A,General,2026-27,Half-Yearly,Social Science,54,80,17,20,71,100,Pass
+REC0421,MUN0085,1005,Reyansh Malhotra,10,A,General,2026-27,Half-Yearly,English,37,80,19,20,56,100,Pass
+REC0422,MUN0085,1005,Reyansh Malhotra,10,A,General,2026-27,Half-Yearly,Hindi,58,80,12,20,70,100,Pass
+REC0423,MUN0085,1005,Reyansh Malhotra,10,A,General,2026-27,Half-Yearly,Mathematics,40,80,14,20,54,100,Pass
+REC0424,MUN0085,1005,Reyansh Malhotra,10,A,General,2026-27,Half-Yearly,Science,55,80,16,20,71,100,Pass
+REC0425,MUN0085,1005,Reyansh Malhotra,10,A,General,2026-27,Half-Yearly,Social Science,46,80,13,20,59,100,Pass
+REC0426,MUN0086,1006,Sneha Gupta,10,B,General,2026-27,Half-Yearly,English,43,80,18,20,61,100,Pass
+REC0427,MUN0086,1006,Sneha Gupta,10,B,General,2026-27,Half-Yearly,Hindi,58,80,18,20,76,100,Pass
+REC0428,MUN0086,1006,Sneha Gupta,10,B,General,2026-27,Half-Yearly,Mathematics,67,80,14,20,81,100,Pass
+REC0429,MUN0086,1006,Sneha Gupta,10,B,General,2026-27,Half-Yearly,Science,45,80,14,20,59,100,Pass
+REC0430,MUN0086,1006,Sneha Gupta,10,B,General,2026-27,Half-Yearly,Social Science,65,80,14,20,79,100,Pass
+REC0431,MUN0087,1007,Tanvi Kapoor,10,A,General,2026-27,Half-Yearly,English,56,80,11,20,67,100,Pass
+REC0432,MUN0087,1007,Tanvi Kapoor,10,A,General,2026-27,Half-Yearly,Hindi,64,80,11,20,75,100,Pass
+REC0433,MUN0087,1007,Tanvi Kapoor,10,A,General,2026-27,Half-Yearly,Mathematics,44,80,13,20,57,100,Pass
+REC0434,MUN0087,1007,Tanvi Kapoor,10,A,General,2026-27,Half-Yearly,Science,78,80,20,20,98,100,Pass
+REC0435,MUN0087,1007,Tanvi Kapoor,10,A,General,2026-27,Half-Yearly,Social Science,60,80,18,20,78,100,Pass
+REC0436,MUN0088,1008,Ananya Kapoor,10,A,General,2026-27,Half-Yearly,English,58,80,11,20,69,100,Pass
+REC0437,MUN0088,1008,Ananya Kapoor,10,A,General,2026-27,Half-Yearly,Hindi,60,80,10,20,70,100,Pass
+REC0438,MUN0088,1008,Ananya Kapoor,10,A,General,2026-27,Half-Yearly,Mathematics,51,80,18,20,69,100,Pass
+REC0439,MUN0088,1008,Ananya Kapoor,10,A,General,2026-27,Half-Yearly,Science,42,80,17,20,59,100,Pass
+REC0440,MUN0088,1008,Ananya Kapoor,10,A,General,2026-27,Half-Yearly,Social Science,58,80,20,20,78,100,Pass
+REC0441,MUN0089,1009,Vivaan Jain,10,A,General,2026-27,Half-Yearly,English,78,80,14,20,92,100,Pass
+REC0442,MUN0089,1009,Vivaan Jain,10,A,General,2026-27,Half-Yearly,Hindi,72,80,16,20,88,100,Pass
+REC0443,MUN0089,1009,Vivaan Jain,10,A,General,2026-27,Half-Yearly,Mathematics,75,80,15,20,90,100,Pass
+REC0444,MUN0089,1009,Vivaan Jain,10,A,General,2026-27,Half-Yearly,Science,41,80,20,20,61,100,Pass
+REC0445,MUN0089,1009,Vivaan Jain,10,A,General,2026-27,Half-Yearly,Social Science,49,80,17,20,66,100,Pass
+REC0446,MUN0090,1010,Meera Bansal,10,B,General,2026-27,Half-Yearly,English,36,80,19,20,55,100,Pass
+REC0447,MUN0090,1010,Meera Bansal,10,B,General,2026-27,Half-Yearly,Hindi,70,80,15,20,85,100,Pass
+REC0448,MUN0090,1010,Meera Bansal,10,B,General,2026-27,Half-Yearly,Mathematics,74,80,13,20,87,100,Pass
+REC0449,MUN0090,1010,Meera Bansal,10,B,General,2026-27,Half-Yearly,Science,76,80,11,20,87,100,Pass
+REC0450,MUN0090,1010,Meera Bansal,10,B,General,2026-27,Half-Yearly,Social Science,75,80,17,20,92,100,Pass
+REC0451,MUN0091,1011,Arjun Mishra,10,A,General,2026-27,Half-Yearly,English,79,80,14,20,93,100,Pass
+REC0452,MUN0091,1011,Arjun Mishra,10,A,General,2026-27,Half-Yearly,Hindi,76,80,16,20,92,100,Pass
+REC0453,MUN0091,1011,Arjun Mishra,10,A,General,2026-27,Half-Yearly,Mathematics,42,80,12,20,54,100,Pass
+REC0454,MUN0091,1011,Arjun Mishra,10,A,General,2026-27,Half-Yearly,Science,37,80,10,20,47,100,Pass
+REC0455,MUN0091,1011,Arjun Mishra,10,A,General,2026-27,Half-Yearly,Social Science,54,80,17,20,71,100,Pass
+REC0456,MUN0092,1012,Ishita Mishra,10,A,General,2026-27,Half-Yearly,English,42,80,11,20,53,100,Pass
+REC0457,MUN0092,1012,Ishita Mishra,10,A,General,2026-27,Half-Yearly,Hindi,50,80,18,20,68,100,Pass
+REC0458,MUN0092,1012,Ishita Mishra,10,A,General,2026-27,Half-Yearly,Mathematics,43,80,16,20,59,100,Pass
+REC0459,MUN0092,1012,Ishita Mishra,10,A,General,2026-27,Half-Yearly,Science,64,80,15,20,79,100,Pass
+REC0460,MUN0092,1012,Ishita Mishra,10,A,General,2026-27,Half-Yearly,Social Science,77,80,18,20,95,100,Pass
+REC0461,MUN0093,1013,Rohan Mehta,10,B,General,2026-27,Half-Yearly,English,61,80,19,20,80,100,Pass
+REC0462,MUN0093,1013,Rohan Mehta,10,B,General,2026-27,Half-Yearly,Hindi,44,80,16,20,60,100,Pass
+REC0463,MUN0093,1013,Rohan Mehta,10,B,General,2026-27,Half-Yearly,Mathematics,76,80,11,20,87,100,Pass
+REC0464,MUN0093,1013,Rohan Mehta,10,B,General,2026-27,Half-Yearly,Science,66,80,19,20,85,100,Pass
+REC0465,MUN0093,1013,Rohan Mehta,10,B,General,2026-27,Half-Yearly,Social Science,61,80,14,20,75,100,Pass
+REC0466,MUN0094,1014,Kavya Joshi,10,B,General,2026-27,Half-Yearly,English,37,80,15,20,52,100,Pass
+REC0467,MUN0094,1014,Kavya Joshi,10,B,General,2026-27,Half-Yearly,Hindi,48,80,17,20,65,100,Pass
+REC0468,MUN0094,1014,Kavya Joshi,10,B,General,2026-27,Half-Yearly,Mathematics,63,80,13,20,76,100,Pass
+REC0469,MUN0094,1014,Kavya Joshi,10,B,General,2026-27,Half-Yearly,Science,58,80,11,20,69,100,Pass
+REC0470,MUN0094,1014,Kavya Joshi,10,B,General,2026-27,Half-Yearly,Social Science,78,80,15,20,93,100,Pass
+REC0471,MUN0095,1015,Aditya Kumar,10,B,General,2026-27,Half-Yearly,English,69,80,20,20,89,100,Pass
+REC0472,MUN0095,1015,Aditya Kumar,10,B,General,2026-27,Half-Yearly,Hindi,57,80,10,20,67,100,Pass
+REC0473,MUN0095,1015,Aditya Kumar,10,B,General,2026-27,Half-Yearly,Mathematics,60,80,14,20,74,100,Pass
+REC0474,MUN0095,1015,Aditya Kumar,10,B,General,2026-27,Half-Yearly,Science,47,80,11,20,58,100,Pass
+REC0475,MUN0095,1015,Aditya Kumar,10,B,General,2026-27,Half-Yearly,Social Science,64,80,11,20,75,100,Pass
+REC0476,MUN0096,1016,Arjun Verma,10,A,General,2026-27,Half-Yearly,English,77,80,13,20,90,100,Pass
+REC0477,MUN0096,1016,Arjun Verma,10,A,General,2026-27,Half-Yearly,Hindi,76,80,20,20,96,100,Pass
+REC0478,MUN0096,1016,Arjun Verma,10,A,General,2026-27,Half-Yearly,Mathematics,73,80,10,20,83,100,Pass
+REC0479,MUN0096,1016,Arjun Verma,10,A,General,2026-27,Half-Yearly,Science,38,80,15,20,53,100,Pass
+REC0480,MUN0096,1016,Arjun Verma,10,A,General,2026-27,Half-Yearly,Social Science,50,80,12,20,62,100,Pass
+REC0481,MUN0097,1017,Pooja Chauhan,10,A,General,2026-27,Half-Yearly,English,71,80,13,20,84,100,Pass
+REC0482,MUN0097,1017,Pooja Chauhan,10,A,General,2026-27,Half-Yearly,Hindi,39,80,18,20,57,100,Pass
+REC0483,MUN0097,1017,Pooja Chauhan,10,A,General,2026-27,Half-Yearly,Mathematics,48,80,19,20,67,100,Pass
+REC0484,MUN0097,1017,Pooja Chauhan,10,A,General,2026-27,Half-Yearly,Science,48,80,13,20,61,100,Pass
+REC0485,MUN0097,1017,Pooja Chauhan,10,A,General,2026-27,Half-Yearly,Social Science,56,80,12,20,68,100,Pass
+REC0486,MUN0098,1018,Ananya Rao,10,B,General,2026-27,Half-Yearly,English,73,80,10,20,83,100,Pass
+REC0487,MUN0098,1018,Ananya Rao,10,B,General,2026-27,Half-Yearly,Hindi,52,80,12,20,64,100,Pass
+REC0488,MUN0098,1018,Ananya Rao,10,B,General,2026-27,Half-Yearly,Mathematics,43,80,18,20,61,100,Pass
+REC0489,MUN0098,1018,Ananya Rao,10,B,General,2026-27,Half-Yearly,Science,51,80,12,20,63,100,Pass
+REC0490,MUN0098,1018,Ananya Rao,10,B,General,2026-27,Half-Yearly,Social Science,42,80,20,20,62,100,Pass
+REC0491,MUN0099,1019,Kabir Saini,10,A,General,2026-27,Half-Yearly,English,36,80,12,20,48,100,Pass
+REC0492,MUN0099,1019,Kabir Saini,10,A,General,2026-27,Half-Yearly,Hindi,35,80,15,20,50,100,Pass
+REC0493,MUN0099,1019,Kabir Saini,10,A,General,2026-27,Half-Yearly,Mathematics,50,80,19,20,69,100,Pass
+REC0494,MUN0099,1019,Kabir Saini,10,A,General,2026-27,Half-Yearly,Science,55,80,10,20,65,100,Pass
+REC0495,MUN0099,1019,Kabir Saini,10,A,General,2026-27,Half-Yearly,Social Science,46,80,14,20,60,100,Pass
+REC0496,MUN0100,1020,Ananya Saini,10,A,General,2026-27,Half-Yearly,English,38,80,12,20,50,100,Pass
+REC0497,MUN0100,1020,Ananya Saini,10,A,General,2026-27,Half-Yearly,Hindi,61,80,18,20,79,100,Pass
+REC0498,MUN0100,1020,Ananya Saini,10,A,General,2026-27,Half-Yearly,Mathematics,42,80,11,20,53,100,Pass
+REC0499,MUN0100,1020,Ananya Saini,10,A,General,2026-27,Half-Yearly,Science,65,80,17,20,82,100,Pass
+REC0500,MUN0100,1020,Ananya Saini,10,A,General,2026-27,Half-Yearly,Social Science,58,80,18,20,76,100,Pass
+REC0501,MUN0101,1101,Sneha Patel,11,A,Science,2026-27,Half-Yearly,English,72,80,11,20,83,100,Pass
+REC0502,MUN0101,1101,Sneha Patel,11,A,Science,2026-27,Half-Yearly,Physics,63,80,18,20,81,100,Pass
+REC0503,MUN0101,1101,Sneha Patel,11,A,Science,2026-27,Half-Yearly,Chemistry,49,80,19,20,68,100,Pass
+REC0504,MUN0101,1101,Sneha Patel,11,A,Science,2026-27,Half-Yearly,Mathematics,37,80,20,20,57,100,Pass
+REC0505,MUN0101,1101,Sneha Patel,11,A,Science,2026-27,Half-Yearly,Biology,68,80,14,20,82,100,Pass
+REC0506,MUN0102,1102,Riya Gupta,11,A,Science,2026-27,Half-Yearly,English,64,80,20,20,84,100,Pass
+REC0507,MUN0102,1102,Riya Gupta,11,A,Science,2026-27,Half-Yearly,Physics,36,80,10,20,46,100,Pass
+REC0508,MUN0102,1102,Riya Gupta,11,A,Science,2026-27,Half-Yearly,Chemistry,65,80,16,20,81,100,Pass
+REC0509,MUN0102,1102,Riya Gupta,11,A,Science,2026-27,Half-Yearly,Mathematics,62,80,20,20,82,100,Pass
+REC0510,MUN0102,1102,Riya Gupta,11,A,Science,2026-27,Half-Yearly,Biology,41,80,17,20,58,100,Pass
+REC0511,MUN0103,1103,Rohan Singh,11,A,Science,2026-27,Half-Yearly,English,63,80,11,20,74,100,Pass
+REC0512,MUN0103,1103,Rohan Singh,11,A,Science,2026-27,Half-Yearly,Physics,40,80,15,20,55,100,Pass
+REC0513,MUN0103,1103,Rohan Singh,11,A,Science,2026-27,Half-Yearly,Chemistry,73,80,12,20,85,100,Pass
+REC0514,MUN0103,1103,Rohan Singh,11,A,Science,2026-27,Half-Yearly,Mathematics,39,80,12,20,51,100,Pass
+REC0515,MUN0103,1103,Rohan Singh,11,A,Science,2026-27,Half-Yearly,Biology,52,80,19,20,71,100,Pass
+REC0516,MUN0104,1104,Dev Kaur,11,A,Science,2026-27,Half-Yearly,English,75,80,19,20,94,100,Pass
+REC0517,MUN0104,1104,Dev Kaur,11,A,Science,2026-27,Half-Yearly,Physics,70,80,15,20,85,100,Pass
+REC0518,MUN0104,1104,Dev Kaur,11,A,Science,2026-27,Half-Yearly,Chemistry,59,80,19,20,78,100,Pass
+REC0519,MUN0104,1104,Dev Kaur,11,A,Science,2026-27,Half-Yearly,Mathematics,68,80,14,20,82,100,Pass
+REC0520,MUN0104,1104,Dev Kaur,11,A,Science,2026-27,Half-Yearly,Biology,64,80,18,20,82,100,Pass
+REC0521,MUN0105,1105,Riya Gupta,11,B,Science,2026-27,Half-Yearly,English,73,80,16,20,89,100,Pass
+REC0522,MUN0105,1105,Riya Gupta,11,B,Science,2026-27,Half-Yearly,Physics,41,80,11,20,52,100,Pass
+REC0523,MUN0105,1105,Riya Gupta,11,B,Science,2026-27,Half-Yearly,Chemistry,76,80,20,20,96,100,Pass
+REC0524,MUN0105,1105,Riya Gupta,11,B,Science,2026-27,Half-Yearly,Mathematics,70,80,13,20,83,100,Pass
+REC0525,MUN0105,1105,Riya Gupta,11,B,Science,2026-27,Half-Yearly,Biology,62,80,17,20,79,100,Pass
+REC0526,MUN0106,1106,Simran Rao,11,B,Science,2026-27,Half-Yearly,English,49,80,16,20,65,100,Pass
+REC0527,MUN0106,1106,Simran Rao,11,B,Science,2026-27,Half-Yearly,Physics,56,80,17,20,73,100,Pass
+REC0528,MUN0106,1106,Simran Rao,11,B,Science,2026-27,Half-Yearly,Chemistry,60,80,16,20,76,100,Pass
+REC0529,MUN0106,1106,Simran Rao,11,B,Science,2026-27,Half-Yearly,Mathematics,41,80,15,20,56,100,Pass
+REC0530,MUN0106,1106,Simran Rao,11,B,Science,2026-27,Half-Yearly,Biology,62,80,15,20,77,100,Pass
+REC0531,MUN0107,1107,Aarohi Mehta,11,A,Science,2026-27,Half-Yearly,English,77,80,14,20,91,100,Pass
+REC0532,MUN0107,1107,Aarohi Mehta,11,A,Science,2026-27,Half-Yearly,Physics,58,80,12,20,70,100,Pass
+REC0533,MUN0107,1107,Aarohi Mehta,11,A,Science,2026-27,Half-Yearly,Chemistry,78,80,17,20,95,100,Pass
+REC0534,MUN0107,1107,Aarohi Mehta,11,A,Science,2026-27,Half-Yearly,Mathematics,39,80,11,20,50,100,Pass
+REC0535,MUN0107,1107,Aarohi Mehta,11,A,Science,2026-27,Half-Yearly,Biology,40,80,11,20,51,100,Pass
+REC0536,MUN0108,1108,Simran Chauhan,11,A,Commerce,2026-27,Half-Yearly,English,62,80,11,20,73,100,Pass
+REC0537,MUN0108,1108,Simran Chauhan,11,A,Commerce,2026-27,Half-Yearly,Accountancy,58,80,12,20,70,100,Pass
+REC0538,MUN0108,1108,Simran Chauhan,11,A,Commerce,2026-27,Half-Yearly,Business Studies,70,80,10,20,80,100,Pass
+REC0539,MUN0108,1108,Simran Chauhan,11,A,Commerce,2026-27,Half-Yearly,Economics,72,80,18,20,90,100,Pass
+REC0540,MUN0108,1108,Simran Chauhan,11,A,Commerce,2026-27,Half-Yearly,Mathematics,70,80,15,20,85,100,Pass
+REC0541,MUN0109,1109,Reyansh Mishra,11,A,Commerce,2026-27,Half-Yearly,English,77,80,11,20,88,100,Pass
+REC0542,MUN0109,1109,Reyansh Mishra,11,A,Commerce,2026-27,Half-Yearly,Accountancy,61,80,15,20,76,100,Pass
+REC0543,MUN0109,1109,Reyansh Mishra,11,A,Commerce,2026-27,Half-Yearly,Business Studies,77,80,16,20,93,100,Pass
+REC0544,MUN0109,1109,Reyansh Mishra,11,A,Commerce,2026-27,Half-Yearly,Economics,38,80,14,20,52,100,Pass
+REC0545,MUN0109,1109,Reyansh Mishra,11,A,Commerce,2026-27,Half-Yearly,Mathematics,73,80,14,20,87,100,Pass
+REC0546,MUN0110,1110,Simran Reddy,11,B,Commerce,2026-27,Half-Yearly,English,57,80,11,20,68,100,Pass
+REC0547,MUN0110,1110,Simran Reddy,11,B,Commerce,2026-27,Half-Yearly,Accountancy,71,80,18,20,89,100,Pass
+REC0548,MUN0110,1110,Simran Reddy,11,B,Commerce,2026-27,Half-Yearly,Business Studies,48,80,12,20,60,100,Pass
+REC0549,MUN0110,1110,Simran Reddy,11,B,Commerce,2026-27,Half-Yearly,Economics,77,80,17,20,94,100,Pass
+REC0550,MUN0110,1110,Simran Reddy,11,B,Commerce,2026-27,Half-Yearly,Mathematics,49,80,11,20,60,100,Pass
+REC0551,MUN0111,1111,Krishna Gupta,11,A,Commerce,2026-27,Half-Yearly,English,57,80,18,20,75,100,Pass
+REC0552,MUN0111,1111,Krishna Gupta,11,A,Commerce,2026-27,Half-Yearly,Accountancy,58,80,11,20,69,100,Pass
+REC0553,MUN0111,1111,Krishna Gupta,11,A,Commerce,2026-27,Half-Yearly,Business Studies,52,80,19,20,71,100,Pass
+REC0554,MUN0111,1111,Krishna Gupta,11,A,Commerce,2026-27,Half-Yearly,Economics,49,80,16,20,65,100,Pass
+REC0555,MUN0111,1111,Krishna Gupta,11,A,Commerce,2026-27,Half-Yearly,Mathematics,70,80,19,20,89,100,Pass
+REC0556,MUN0112,1112,Ishaan Kaur,11,A,Commerce,2026-27,Half-Yearly,English,74,80,20,20,94,100,Pass
+REC0557,MUN0112,1112,Ishaan Kaur,11,A,Commerce,2026-27,Half-Yearly,Accountancy,76,80,18,20,94,100,Pass
+REC0558,MUN0112,1112,Ishaan Kaur,11,A,Commerce,2026-27,Half-Yearly,Business Studies,36,80,19,20,55,100,Pass
+REC0559,MUN0112,1112,Ishaan Kaur,11,A,Commerce,2026-27,Half-Yearly,Economics,77,80,14,20,91,100,Pass
+REC0560,MUN0112,1112,Ishaan Kaur,11,A,Commerce,2026-27,Half-Yearly,Mathematics,36,80,12,20,48,100,Pass
+REC0561,MUN0113,1113,Vivaan Kapoor,11,A,Commerce,2026-27,Half-Yearly,English,52,80,14,20,66,100,Pass
+REC0562,MUN0113,1113,Vivaan Kapoor,11,A,Commerce,2026-27,Half-Yearly,Accountancy,56,80,15,20,71,100,Pass
+REC0563,MUN0113,1113,Vivaan Kapoor,11,A,Commerce,2026-27,Half-Yearly,Business Studies,35,80,12,20,47,100,Pass
+REC0564,MUN0113,1113,Vivaan Kapoor,11,A,Commerce,2026-27,Half-Yearly,Economics,44,80,19,20,63,100,Pass
+REC0565,MUN0113,1113,Vivaan Kapoor,11,A,Commerce,2026-27,Half-Yearly,Mathematics,77,80,16,20,93,100,Pass
+REC0566,MUN0114,1114,Kabir Mehta,11,A,Commerce,2026-27,Half-Yearly,English,39,80,12,20,51,100,Pass
+REC0567,MUN0114,1114,Kabir Mehta,11,A,Commerce,2026-27,Half-Yearly,Accountancy,75,80,10,20,85,100,Pass
+REC0568,MUN0114,1114,Kabir Mehta,11,A,Commerce,2026-27,Half-Yearly,Business Studies,40,80,18,20,58,100,Pass
+REC0569,MUN0114,1114,Kabir Mehta,11,A,Commerce,2026-27,Half-Yearly,Economics,48,80,16,20,64,100,Pass
+REC0570,MUN0114,1114,Kabir Mehta,11,A,Commerce,2026-27,Half-Yearly,Mathematics,61,80,17,20,78,100,Pass
+REC0571,MUN0115,1115,Aarohi Das,11,A,Humanities,2026-27,Half-Yearly,English,56,80,12,20,68,100,Pass
+REC0572,MUN0115,1115,Aarohi Das,11,A,Humanities,2026-27,Half-Yearly,History,58,80,14,20,72,100,Pass
+REC0573,MUN0115,1115,Aarohi Das,11,A,Humanities,2026-27,Half-Yearly,Political Science,55,80,19,20,74,100,Pass
+REC0574,MUN0115,1115,Aarohi Das,11,A,Humanities,2026-27,Half-Yearly,Geography,73,80,11,20,84,100,Pass
+REC0575,MUN0115,1115,Aarohi Das,11,A,Humanities,2026-27,Half-Yearly,Economics,38,80,12,20,50,100,Pass
+REC0576,MUN0116,1116,Om Jain,11,B,Humanities,2026-27,Half-Yearly,English,45,80,19,20,64,100,Pass
+REC0577,MUN0116,1116,Om Jain,11,B,Humanities,2026-27,Half-Yearly,History,38,80,20,20,58,100,Pass
+REC0578,MUN0116,1116,Om Jain,11,B,Humanities,2026-27,Half-Yearly,Political Science,40,80,14,20,54,100,Pass
+REC0579,MUN0116,1116,Om Jain,11,B,Humanities,2026-27,Half-Yearly,Geography,63,80,20,20,83,100,Pass
+REC0580,MUN0116,1116,Om Jain,11,B,Humanities,2026-27,Half-Yearly,Economics,62,80,17,20,79,100,Pass
+REC0581,MUN0117,1117,Kavya Patel,11,B,Humanities,2026-27,Half-Yearly,English,73,80,17,20,90,100,Pass
+REC0582,MUN0117,1117,Kavya Patel,11,B,Humanities,2026-27,Half-Yearly,History,61,80,14,20,75,100,Pass
+REC0583,MUN0117,1117,Kavya Patel,11,B,Humanities,2026-27,Half-Yearly,Political Science,48,80,18,20,66,100,Pass
+REC0584,MUN0117,1117,Kavya Patel,11,B,Humanities,2026-27,Half-Yearly,Geography,42,80,15,20,57,100,Pass
+REC0585,MUN0117,1117,Kavya Patel,11,B,Humanities,2026-27,Half-Yearly,Economics,62,80,11,20,73,100,Pass
+REC0586,MUN0118,1118,Rahul Kapoor,11,B,Humanities,2026-27,Half-Yearly,English,53,80,20,20,73,100,Pass
+REC0587,MUN0118,1118,Rahul Kapoor,11,B,Humanities,2026-27,Half-Yearly,History,78,80,19,20,97,100,Pass
+REC0588,MUN0118,1118,Rahul Kapoor,11,B,Humanities,2026-27,Half-Yearly,Political Science,66,80,18,20,84,100,Pass
+REC0589,MUN0118,1118,Rahul Kapoor,11,B,Humanities,2026-27,Half-Yearly,Geography,77,80,14,20,91,100,Pass
+REC0590,MUN0118,1118,Rahul Kapoor,11,B,Humanities,2026-27,Half-Yearly,Economics,37,80,13,20,50,100,Pass
+REC0591,MUN0119,1119,Riya Saini,11,A,Humanities,2026-27,Half-Yearly,English,60,80,19,20,79,100,Pass
+REC0592,MUN0119,1119,Riya Saini,11,A,Humanities,2026-27,Half-Yearly,History,38,80,10,20,48,100,Pass
+REC0593,MUN0119,1119,Riya Saini,11,A,Humanities,2026-27,Half-Yearly,Political Science,48,80,14,20,62,100,Pass
+REC0594,MUN0119,1119,Riya Saini,11,A,Humanities,2026-27,Half-Yearly,Geography,48,80,12,20,60,100,Pass
+REC0595,MUN0119,1119,Riya Saini,11,A,Humanities,2026-27,Half-Yearly,Economics,51,80,14,20,65,100,Pass
+REC0596,MUN0120,1120,Simran Kapoor,11,B,Humanities,2026-27,Half-Yearly,English,55,80,11,20,66,100,Pass
+REC0597,MUN0120,1120,Simran Kapoor,11,B,Humanities,2026-27,Half-Yearly,History,35,80,17,20,52,100,Pass
+REC0598,MUN0120,1120,Simran Kapoor,11,B,Humanities,2026-27,Half-Yearly,Political Science,62,80,12,20,74,100,Pass
+REC0599,MUN0120,1120,Simran Kapoor,11,B,Humanities,2026-27,Half-Yearly,Geography,43,80,16,20,59,100,Pass
+REC0600,MUN0120,1120,Simran Kapoor,11,B,Humanities,2026-27,Half-Yearly,Economics,69,80,13,20,82,100,Pass
+REC0601,MUN0121,1201,Aarohi Singh,12,A,Science,2026-27,Half-Yearly,English,67,80,18,20,85,100,Pass
+REC0602,MUN0121,1201,Aarohi Singh,12,A,Science,2026-27,Half-Yearly,Physics,77,80,15,20,92,100,Pass
+REC0603,MUN0121,1201,Aarohi Singh,12,A,Science,2026-27,Half-Yearly,Chemistry,39,80,16,20,55,100,Pass
+REC0604,MUN0121,1201,Aarohi Singh,12,A,Science,2026-27,Half-Yearly,Mathematics,37,80,16,20,53,100,Pass
+REC0605,MUN0121,1201,Aarohi Singh,12,A,Science,2026-27,Half-Yearly,Biology,36,80,17,20,53,100,Pass
+REC0606,MUN0122,1202,Reyansh Singh,12,A,Science,2026-27,Half-Yearly,English,39,80,15,20,54,100,Pass
+REC0607,MUN0122,1202,Reyansh Singh,12,A,Science,2026-27,Half-Yearly,Physics,71,80,16,20,87,100,Pass
+REC0608,MUN0122,1202,Reyansh Singh,12,A,Science,2026-27,Half-Yearly,Chemistry,71,80,16,20,87,100,Pass
+REC0609,MUN0122,1202,Reyansh Singh,12,A,Science,2026-27,Half-Yearly,Mathematics,75,80,16,20,91,100,Pass
+REC0610,MUN0122,1202,Reyansh Singh,12,A,Science,2026-27,Half-Yearly,Biology,53,80,11,20,64,100,Pass
+REC0611,MUN0123,1203,Pooja Kapoor,12,A,Science,2026-27,Half-Yearly,English,60,80,10,20,70,100,Pass
+REC0612,MUN0123,1203,Pooja Kapoor,12,A,Science,2026-27,Half-Yearly,Physics,55,80,12,20,67,100,Pass
+REC0613,MUN0123,1203,Pooja Kapoor,12,A,Science,2026-27,Half-Yearly,Chemistry,74,80,17,20,91,100,Pass
+REC0614,MUN0123,1203,Pooja Kapoor,12,A,Science,2026-27,Half-Yearly,Mathematics,79,80,15,20,94,100,Pass
+REC0615,MUN0123,1203,Pooja Kapoor,12,A,Science,2026-27,Half-Yearly,Biology,40,80,16,20,56,100,Pass
+REC0616,MUN0124,1204,Reyansh Reddy,12,A,Science,2026-27,Half-Yearly,English,41,80,13,20,54,100,Pass
+REC0617,MUN0124,1204,Reyansh Reddy,12,A,Science,2026-27,Half-Yearly,Physics,62,80,19,20,81,100,Pass
+REC0618,MUN0124,1204,Reyansh Reddy,12,A,Science,2026-27,Half-Yearly,Chemistry,60,80,18,20,78,100,Pass
+REC0619,MUN0124,1204,Reyansh Reddy,12,A,Science,2026-27,Half-Yearly,Mathematics,40,80,16,20,56,100,Pass
+REC0620,MUN0124,1204,Reyansh Reddy,12,A,Science,2026-27,Half-Yearly,Biology,54,80,15,20,69,100,Pass
+REC0621,MUN0125,1205,Yash Chauhan,12,A,Science,2026-27,Half-Yearly,English,49,80,15,20,64,100,Pass
+REC0622,MUN0125,1205,Yash Chauhan,12,A,Science,2026-27,Half-Yearly,Physics,45,80,11,20,56,100,Pass
+REC0623,MUN0125,1205,Yash Chauhan,12,A,Science,2026-27,Half-Yearly,Chemistry,67,80,20,20,87,100,Pass
+REC0624,MUN0125,1205,Yash Chauhan,12,A,Science,2026-27,Half-Yearly,Mathematics,42,80,18,20,60,100,Pass
+REC0625,MUN0125,1205,Yash Chauhan,12,A,Science,2026-27,Half-Yearly,Biology,67,80,13,20,80,100,Pass
+REC0626,MUN0126,1206,Simran Mehta,12,B,Science,2026-27,Half-Yearly,English,57,80,15,20,72,100,Pass
+REC0627,MUN0126,1206,Simran Mehta,12,B,Science,2026-27,Half-Yearly,Physics,76,80,12,20,88,100,Pass
+REC0628,MUN0126,1206,Simran Mehta,12,B,Science,2026-27,Half-Yearly,Chemistry,50,80,11,20,61,100,Pass
+REC0629,MUN0126,1206,Simran Mehta,12,B,Science,2026-27,Half-Yearly,Mathematics,44,80,14,20,58,100,Pass
+REC0630,MUN0126,1206,Simran Mehta,12,B,Science,2026-27,Half-Yearly,Biology,47,80,12,20,59,100,Pass
+REC0631,MUN0127,1207,Reyansh Verma,12,A,Science,2026-27,Half-Yearly,English,73,80,12,20,85,100,Pass
+REC0632,MUN0127,1207,Reyansh Verma,12,A,Science,2026-27,Half-Yearly,Physics,76,80,11,20,87,100,Pass
+REC0633,MUN0127,1207,Reyansh Verma,12,A,Science,2026-27,Half-Yearly,Chemistry,46,80,20,20,66,100,Pass
+REC0634,MUN0127,1207,Reyansh Verma,12,A,Science,2026-27,Half-Yearly,Mathematics,66,80,17,20,83,100,Pass
+REC0635,MUN0127,1207,Reyansh Verma,12,A,Science,2026-27,Half-Yearly,Biology,71,80,19,20,90,100,Pass
+REC0636,MUN0128,1208,Manav Joshi,12,B,Commerce,2026-27,Half-Yearly,English,63,80,20,20,83,100,Pass
+REC0637,MUN0128,1208,Manav Joshi,12,B,Commerce,2026-27,Half-Yearly,Accountancy,71,80,20,20,91,100,Pass
+REC0638,MUN0128,1208,Manav Joshi,12,B,Commerce,2026-27,Half-Yearly,Business Studies,75,80,19,20,94,100,Pass
+REC0639,MUN0128,1208,Manav Joshi,12,B,Commerce,2026-27,Half-Yearly,Economics,55,80,20,20,75,100,Pass
+REC0640,MUN0128,1208,Manav Joshi,12,B,Commerce,2026-27,Half-Yearly,Mathematics,55,80,12,20,67,100,Pass
+REC0641,MUN0129,1209,Ananya Sharma,12,B,Commerce,2026-27,Half-Yearly,English,63,80,11,20,74,100,Pass
+REC0642,MUN0129,1209,Ananya Sharma,12,B,Commerce,2026-27,Half-Yearly,Accountancy,65,80,17,20,82,100,Pass
+REC0643,MUN0129,1209,Ananya Sharma,12,B,Commerce,2026-27,Half-Yearly,Business Studies,75,80,14,20,89,100,Pass
+REC0644,MUN0129,1209,Ananya Sharma,12,B,Commerce,2026-27,Half-Yearly,Economics,52,80,19,20,71,100,Pass
+REC0645,MUN0129,1209,Ananya Sharma,12,B,Commerce,2026-27,Half-Yearly,Mathematics,38,80,15,20,53,100,Pass
+REC0646,MUN0130,1210,Ayaan Yadav,12,B,Commerce,2026-27,Half-Yearly,English,67,80,11,20,78,100,Pass
+REC0647,MUN0130,1210,Ayaan Yadav,12,B,Commerce,2026-27,Half-Yearly,Accountancy,54,80,17,20,71,100,Pass
+REC0648,MUN0130,1210,Ayaan Yadav,12,B,Commerce,2026-27,Half-Yearly,Business Studies,63,80,10,20,73,100,Pass
+REC0649,MUN0130,1210,Ayaan Yadav,12,B,Commerce,2026-27,Half-Yearly,Economics,38,80,15,20,53,100,Pass
+REC0650,MUN0130,1210,Ayaan Yadav,12,B,Commerce,2026-27,Half-Yearly,Mathematics,53,80,11,20,64,100,Pass
+REC0651,MUN0131,1211,Ishita Malhotra,12,B,Commerce,2026-27,Half-Yearly,English,76,80,11,20,87,100,Pass
+REC0652,MUN0131,1211,Ishita Malhotra,12,B,Commerce,2026-27,Half-Yearly,Accountancy,74,80,19,20,93,100,Pass
+REC0653,MUN0131,1211,Ishita Malhotra,12,B,Commerce,2026-27,Half-Yearly,Business Studies,67,80,16,20,83,100,Pass
+REC0654,MUN0131,1211,Ishita Malhotra,12,B,Commerce,2026-27,Half-Yearly,Economics,64,80,19,20,83,100,Pass
+REC0655,MUN0131,1211,Ishita Malhotra,12,B,Commerce,2026-27,Half-Yearly,Mathematics,70,80,10,20,80,100,Pass
+REC0656,MUN0132,1212,Nisha Sharma,12,A,Commerce,2026-27,Half-Yearly,English,63,80,19,20,82,100,Pass
+REC0657,MUN0132,1212,Nisha Sharma,12,A,Commerce,2026-27,Half-Yearly,Accountancy,76,80,13,20,89,100,Pass
+REC0658,MUN0132,1212,Nisha Sharma,12,A,Commerce,2026-27,Half-Yearly,Business Studies,55,80,19,20,74,100,Pass
+REC0659,MUN0132,1212,Nisha Sharma,12,A,Commerce,2026-27,Half-Yearly,Economics,65,80,18,20,83,100,Pass
+REC0660,MUN0132,1212,Nisha Sharma,12,A,Commerce,2026-27,Half-Yearly,Mathematics,44,80,10,20,54,100,Pass
+REC0661,MUN0133,1213,Vivaan Yadav,12,A,Commerce,2026-27,Half-Yearly,English,63,80,11,20,74,100,Pass
+REC0662,MUN0133,1213,Vivaan Yadav,12,A,Commerce,2026-27,Half-Yearly,Accountancy,56,80,11,20,67,100,Pass
+REC0663,MUN0133,1213,Vivaan Yadav,12,A,Commerce,2026-27,Half-Yearly,Business Studies,67,80,20,20,87,100,Pass
+REC0664,MUN0133,1213,Vivaan Yadav,12,A,Commerce,2026-27,Half-Yearly,Economics,46,80,10,20,56,100,Pass
+REC0665,MUN0133,1213,Vivaan Yadav,12,A,Commerce,2026-27,Half-Yearly,Mathematics,50,80,17,20,67,100,Pass
+REC0666,MUN0134,1214,Rahul Das,12,A,Commerce,2026-27,Half-Yearly,English,63,80,18,20,81,100,Pass
+REC0667,MUN0134,1214,Rahul Das,12,A,Commerce,2026-27,Half-Yearly,Accountancy,68,80,19,20,87,100,Pass
+REC0668,MUN0134,1214,Rahul Das,12,A,Commerce,2026-27,Half-Yearly,Business Studies,45,80,15,20,60,100,Pass
+REC0669,MUN0134,1214,Rahul Das,12,A,Commerce,2026-27,Half-Yearly,Economics,58,80,14,20,72,100,Pass
+REC0670,MUN0134,1214,Rahul Das,12,A,Commerce,2026-27,Half-Yearly,Mathematics,59,80,16,20,75,100,Pass
+REC0671,MUN0135,1215,Meera Yadav,12,A,Humanities,2026-27,Half-Yearly,English,56,80,20,20,76,100,Pass
+REC0672,MUN0135,1215,Meera Yadav,12,A,Humanities,2026-27,Half-Yearly,History,73,80,10,20,83,100,Pass
+REC0673,MUN0135,1215,Meera Yadav,12,A,Humanities,2026-27,Half-Yearly,Political Science,75,80,20,20,95,100,Pass
+REC0674,MUN0135,1215,Meera Yadav,12,A,Humanities,2026-27,Half-Yearly,Geography,56,80,11,20,67,100,Pass
+REC0675,MUN0135,1215,Meera Yadav,12,A,Humanities,2026-27,Half-Yearly,Economics,56,80,11,20,67,100,Pass
+REC0676,MUN0136,1216,Kavya Das,12,A,Humanities,2026-27,Half-Yearly,English,70,80,20,20,90,100,Pass
+REC0677,MUN0136,1216,Kavya Das,12,A,Humanities,2026-27,Half-Yearly,History,59,80,14,20,73,100,Pass
+REC0678,MUN0136,1216,Kavya Das,12,A,Humanities,2026-27,Half-Yearly,Political Science,51,80,20,20,71,100,Pass
+REC0679,MUN0136,1216,Kavya Das,12,A,Humanities,2026-27,Half-Yearly,Geography,73,80,12,20,85,100,Pass
+REC0680,MUN0136,1216,Kavya Das,12,A,Humanities,2026-27,Half-Yearly,Economics,56,80,11,20,67,100,Pass
+REC0681,MUN0137,1217,Om Das,12,A,Humanities,2026-27,Half-Yearly,English,72,80,20,20,92,100,Pass
+REC0682,MUN0137,1217,Om Das,12,A,Humanities,2026-27,Half-Yearly,History,44,80,15,20,59,100,Pass
+REC0683,MUN0137,1217,Om Das,12,A,Humanities,2026-27,Half-Yearly,Political Science,54,80,20,20,74,100,Pass
+REC0684,MUN0137,1217,Om Das,12,A,Humanities,2026-27,Half-Yearly,Geography,79,80,20,20,99,100,Pass
+REC0685,MUN0137,1217,Om Das,12,A,Humanities,2026-27,Half-Yearly,Economics,60,80,12,20,72,100,Pass
+REC0686,MUN0138,1218,Simran Jain,12,A,Humanities,2026-27,Half-Yearly,English,73,80,11,20,84,100,Pass
+REC0687,MUN0138,1218,Simran Jain,12,A,Humanities,2026-27,Half-Yearly,History,54,80,18,20,72,100,Pass
+REC0688,MUN0138,1218,Simran Jain,12,A,Humanities,2026-27,Half-Yearly,Political Science,59,80,20,20,79,100,Pass
+REC0689,MUN0138,1218,Simran Jain,12,A,Humanities,2026-27,Half-Yearly,Geography,56,80,12,20,68,100,Pass
+REC0690,MUN0138,1218,Simran Jain,12,A,Humanities,2026-27,Half-Yearly,Economics,77,80,20,20,97,100,Pass
+REC0691,MUN0139,1219,Diya Kapoor,12,B,Humanities,2026-27,Half-Yearly,English,68,80,11,20,79,100,Pass
+REC0692,MUN0139,1219,Diya Kapoor,12,B,Humanities,2026-27,Half-Yearly,History,76,80,20,20,96,100,Pass
+REC0693,MUN0139,1219,Diya Kapoor,12,B,Humanities,2026-27,Half-Yearly,Political Science,62,80,18,20,80,100,Pass
+REC0694,MUN0139,1219,Diya Kapoor,12,B,Humanities,2026-27,Half-Yearly,Geography,58,80,10,20,68,100,Pass
+REC0695,MUN0139,1219,Diya Kapoor,12,B,Humanities,2026-27,Half-Yearly,Economics,58,80,14,20,72,100,Pass
+REC0696,MUN0140,1220,Riya Yadav,12,A,Humanities,2026-27,Half-Yearly,English,46,80,13,20,59,100,Pass
+REC0697,MUN0140,1220,Riya Yadav,12,A,Humanities,2026-27,Half-Yearly,History,56,80,17,20,73,100,Pass
+REC0698,MUN0140,1220,Riya Yadav,12,A,Humanities,2026-27,Half-Yearly,Political Science,47,80,13,20,60,100,Pass
+REC0699,MUN0140,1220,Riya Yadav,12,A,Humanities,2026-27,Half-Yearly,Geography,43,80,12,20,55,100,Pass
+REC0700,MUN0140,1220,Riya Yadav,12,A,Humanities,2026-27,Half-Yearly,Economics,39,80,14,20,53,100,Pass
