@@ -2,6 +2,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.api import api_router
 from app.database import Base, engine
 from app.seed import seed_database
 
@@ -34,3 +35,6 @@ app.add_middleware(
 @app.get("/api/health")
 def health_check():
     return {"ok": True}
+
+
+app.include_router(api_router, prefix="/api")

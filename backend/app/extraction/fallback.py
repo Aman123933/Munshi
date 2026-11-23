@@ -82,13 +82,22 @@ class RegexFallback:
                     )
                 )
 
-        # 3. Extract Date (aaj / today / kal / yesterday / parso / आज / कल)
+        # 3. Extract Date (ISO date YYYY-MM-DD / aaj / today / kal / yesterday / parso / आज / कल)
+        iso_date_match = re.search(r"\b(\d{4}-\d{2}-\d{2})\b", raw)
         today_date = date.fromisoformat(today) if isinstance(today, str) else today
         today_match = re.search(r"\b(today|aaj)\b|आज", raw, re.IGNORECASE)
         yesterday_match = re.search(r"\b(yesterday|kal)\b|कल", raw, re.IGNORECASE)
         parso_match = re.search(r"\b(parso)\b|परसों", raw, re.IGNORECASE)
 
-        if today_match:
+        if iso_date_match:
+            fields.append(
+                ExtractedField(
+                    type="date",
+                    value=iso_date_match.group(1),
+                    quote=iso_date_match.group(1),
+                )
+            )
+        elif today_match:
             fields.append(
                 ExtractedField(
                     type="date",
@@ -135,7 +144,7 @@ class RegexFallback:
         # 5. Extract Absent Student Names
         # English / Hinglish
         names_segment_en = re.search(
-            r"(?:absent(?:\s+the)?|absent\s*[:\-])\s*[\-—:]\s*([A-Za-z\s,]+?)(?=\.\s+|\.\s*$|(?:\s+[A-Z][a-z]+\s+chapter)|padhaya|Homework|\n)",
+            r"(?:absent(?:\s+the)?|absent\s*[:\-])\s*[\-—:]\s*([A-Za-z\s,]+?)(?=\s+on\s+\d|\.\s+|\.\s*$|(?:\s+[A-Z][a-z]+\s+chapter)|Covered|padhaya|Homework|\n)",
             raw,
             re.IGNORECASE,
         )
