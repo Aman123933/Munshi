@@ -13,9 +13,11 @@ import {
   setApiMode,
   getStoredTeacher,
   setStoredTeacher,
+  onServerWakingChange,
 } from './api/client';
 import { MOCK_TEACHERS } from './api/mock';
 import { getTranslation } from './i18n';
+import { Loader2 } from 'lucide-react';
 
 export default function App() {
   const [currentUser, setCurrentUser] = useState(() => {
@@ -36,8 +38,16 @@ export default function App() {
   const [activeReview, setActiveReview] = useState(null);
   const [sendError, setSendError] = useState(null);
   const [composerInitialText, setComposerInitialText] = useState('');
+  const [isServerWaking, setIsServerWaking] = useState(false);
 
   const t = (key) => getTranslation(uiLang, key);
+
+  // Subscribe to slow server waking notifications
+  useEffect(() => {
+    return onServerWakingChange((waking) => {
+      setIsServerWaking(waking);
+    });
+  }, []);
 
   // Sync initial login on mount
   useEffect(() => {
@@ -127,6 +137,14 @@ export default function App() {
         uiLang={uiLang}
         onToggleUiLang={setUiLang}
       />
+
+      {/* Free-tier cold start indicator */}
+      {isServerWaking && (
+        <div className="bg-amber-100 border-b border-amber-300 text-amber-900 px-4 py-2 text-xs font-semibold flex items-center justify-center space-x-2 animate-pulse shadow-xs z-50">
+          <Loader2 className="w-3.5 h-3.5 animate-spin text-amber-800" />
+          <span>Waking the server, this can take up to a minute...</span>
+        </div>
+      )}
 
       {/* 2. Navigation Tabs: Update, Records, Marks, Audit (principal only) */}
       <NavigationTabs

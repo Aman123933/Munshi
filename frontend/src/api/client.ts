@@ -90,6 +90,27 @@ export function setStoredTeacher(teacher: any | null) {
   }
 }
 
+export type WakingListener = (isWaking: boolean) => void;
+const wakingListeners: Set<WakingListener> = new Set();
+
+export function onServerWakingChange(listener: WakingListener) {
+  wakingListeners.add(listener);
+  return () => {
+    wakingListeners.delete(listener);
+  };
+}
+
+let activeLiveRequests = 0;
+let wakingTimer: any = null;
+
+function notifyWaking(waking: boolean) {
+  wakingListeners.forEach((fn) => {
+    try {
+      fn(waking);
+    } catch {}
+  });
+}
+
 /**
  * Low-level typed fetch wrapper for live mode with JWT headers and error handling
  */
@@ -97,49 +118,70 @@ async function liveRequest<T>(
   endpoint: string,
   options: RequestInit = {}
 ): Promise<T> {
-  const token = getStoredToken();
-  const headers = new Headers(options.headers || {});
-
-  if (token && !headers.has('Authorization')) {
-    headers.set('Authorization', `Bearer ${token}`);
-  }
-
-  if (!headers.has('Content-Type') && !(options.body instanceof FormData)) {
-    headers.set('Content-Type', 'application/json');
-  }
-
-  const response = await fetch(endpoint, {
-    ...options,
-    headers,
-  });
-
-  if (!response.ok) {
-    let errorDetail = `Request failed with status ${response.status}`;
-    let errorBody: any = null;
-    try {
-      errorBody = await response.json();
-      if (errorBody && errorBody.detail) {
-        errorDetail = typeof errorBody.detail === 'string'
-          ? errorBody.detail
-          : JSON.stringify(errorBody.detail);
+  activeLiveRequests++;
+  if (activeLiveRequests === 1 && !wakingTimer) {
+    wakingTimer = setTimeout(() => {
+      if (activeLiveRequests > 0) {
+        notifyWaking(true);
       }
-    } catch {
-      // Body was not JSON
+    }, 1500);
+  }
+
+  try {
+    const token = getStoredToken();
+    const headers = new Headers(options.headers || {});
+
+    if (token && !headers.has('Authorization')) {
+      headers.set('Authorization', `Bearer ${token}`);
     }
-    throw new ApiError(errorDetail, response.status, errorBody);
-  }
 
-  // Handle binary/blob responses (e.g. export)
-  const contentType = response.headers.get('content-type') || '';
-  if (
-    contentType.includes('text/csv') ||
-    contentType.includes('spreadsheetml') ||
-    contentType.includes('application/octet-stream')
-  ) {
-    return (await response.blob()) as unknown as T;
-  }
+    if (!headers.has('Content-Type') && !(options.body instanceof FormData)) {
+      headers.set('Content-Type', 'application/json');
+    }
 
-  return response.json();
+    const response = await fetch(endpoint, {
+      ...options,
+      headers,
+    });
+
+    if (!response.ok) {
+      let errorDetail = `Request failed with status ${response.status}`;
+      let errorBody: any = null;
+      try {
+        errorBody = await response.json();
+        if (errorBody && errorBody.detail) {
+          errorDetail = typeof errorBody.detail === 'string'
+            ? errorBody.detail
+            : JSON.stringify(errorBody.detail);
+        }
+      } catch {
+        // Body was not JSON
+      }
+      throw new ApiError(errorDetail, response.status, errorBody);
+    }
+
+    // Handle binary/blob responses (e.g. export)
+    const contentType = response.headers.get('content-type') || '';
+    if (
+      contentType.includes('text/csv') ||
+      contentType.includes('spreadsheetml') ||
+      contentType.includes('application/octet-stream')
+    ) {
+      return (await response.blob()) as unknown as T;
+    }
+
+    return response.json();
+  } finally {
+    activeLiveRequests--;
+    if (activeLiveRequests <= 0) {
+      activeLiveRequests = 0;
+      if (wakingTimer) {
+        clearTimeout(wakingTimer);
+        wakingTimer = null;
+      }
+      notifyWaking(false);
+    }
+  }
 }
 
 /**

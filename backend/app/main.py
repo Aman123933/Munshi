@@ -1,10 +1,17 @@
+import os
 from contextlib import asynccontextmanager
+from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 
 from app.api import api_router
 from app.database import Base, engine
 from app.seed import seed_database
+
+STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
+ASSETS_DIR = STATIC_DIR / "assets"
 
 
 @asynccontextmanager
@@ -26,6 +33,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "*",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "http://localhost:3000",
@@ -41,7 +49,23 @@ app.add_middleware(
 
 @app.get("/api/health")
 def health_check():
-    return {"ok": True}
+    return {"ok": True, "status": "healthy"}
 
 
 app.include_router(api_router, prefix="/api")
+
+# Mount assets directory if it exists
+if ASSETS_DIR.exists():
+    app.mount("/assets", StaticFiles(directory=str(ASSETS_DIR)), name="assets")
+
+
+# Single-Page Application catch-all route
+@app.get("/{full_path:path}")
+def serve_spa(full_path: str):
+    file_path = STATIC_DIR / full_path
+    if full_path and file_path.is_file():
+        return FileResponse(file_path)
+    index_path = STATIC_DIR / "index.html"
+    if index_path.is_file():
+        return FileResponse(index_path)
+    return {"message": "Munshi API running. Frontend static build not found."}

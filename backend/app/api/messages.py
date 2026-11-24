@@ -2,8 +2,10 @@ import json
 import re
 import uuid
 from datetime import date, datetime, timezone
+from time import time
+from collections import defaultdict
 from typing import Any, Dict, List, Optional
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Request, status
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
@@ -105,9 +107,35 @@ def build_teacher_context_dict(teacher: Teacher) -> Dict[str, Any]:
     }
 
 
+# In-memory IP rate limiter: max 20 requests per 60 seconds per IP
+_message_rate_limits: Dict[str, List[float]] = defaultdict(list)
+RATE_LIMIT_WINDOW = 60.0  # seconds
+RATE_LIMIT_MAX = 20       # 20 per minute per IP
+
+
+def check_message_rate_limit(request: Request):
+    client_ip = request.client.host if request.client else "unknown"
+    forwarded_for = request.headers.get("x-forwarded-for")
+    if forwarded_for:
+        client_ip = forwarded_for.split(",")[0].strip()
+
+    now = time()
+    timestamps = _message_rate_limits[client_ip]
+    cutoff = now - RATE_LIMIT_WINDOW
+    _message_rate_limits[client_ip] = [ts for ts in timestamps if ts > cutoff]
+
+    if len(_message_rate_limits[client_ip]) >= RATE_LIMIT_MAX:
+        raise HTTPException(
+            status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+            detail="Rate limit exceeded: maximum 20 message extractions per minute per IP.",
+        )
+    _message_rate_limits[client_ip].append(now)
+
+
 @router.post("/messages", response_model=ReviewObject)
 def create_message(
     req: MessageCreateRequest,
+    request: Request,
     current_user: Teacher = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
@@ -117,6 +145,7 @@ def create_message(
     evaluates rules R1 to R9, and persists message & extraction_field rows.
     Never writes to record tables (attendance, diary, homework).
     """
+    check_message_rate_limit(request)
     normalized = normalize_message_text(req.text)
     if not normalized:
         raise HTTPException(status_code=400, detail="Message text cannot be empty.")
