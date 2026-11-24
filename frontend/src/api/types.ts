@@ -120,6 +120,7 @@ export interface Flag {
   record_id?: string | null;
   student_name?: string | null;
   class?: string | null;
+  class_name?: string | null;
   subject?: string | null;
   column?: string | null;
   observed?: string | null;

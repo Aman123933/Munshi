@@ -1,0 +1,283 @@
+{
+  "date": "2026-11-24",
+  "model_name": "gemini-3.5-flash",
+  "prompt_version": "v1",
+  "marks_eval": {
+    "total_injected_errors": 13,
+    "detected_injected_errors": 13,
+    "injected_errors_recall": 100.0,
+    "injected_errors_detail": [
+      {
+        "record_id": "REC0104",
+        "error_type": "out_of_range_total",
+        "column": "total_marks",
+        "observed": "108.0",
+        "expected_detection": "Flag for teacher review; do not auto-correct or save",
+        "rule": "total_above_max, total_mismatch",
+        "detected": true
+      },
+      {
+        "record_id": "REC0520",
+        "error_type": "negative_theory_marks",
+        "column": "theory_marks",
+        "observed": "-5.0, 82.0",
+        "expected_detection": "Flag for teacher review; do not auto-correct or save",
+        "rule": "negative_value, total_mismatch",
+        "detected": true
+      },
+      {
+        "record_id": "REC0553",
+        "error_type": "theory_marks_above_max",
+        "column": "theory_marks",
+        "observed": "71.0, 95.0",
+        "expected_detection": "Flag for teacher review; do not auto-correct or save",
+        "rule": "theory_above_max, total_mismatch",
+        "detected": true
+      },
+      {
+        "record_id": "REC0540",
+        "error_type": "internal_marks_above_max",
+        "column": "internal_marks",
+        "observed": "25.0, 85.0",
+        "expected_detection": "Flag for teacher review; do not auto-correct or save",
+        "rule": "internal_above_max, total_mismatch",
+        "detected": true
+      },
+      {
+        "record_id": "REC0039",
+        "error_type": "missing_theory_marks",
+        "column": "theory_marks",
+        "observed": "nan",
+        "expected_detection": "Flag for teacher review; do not auto-correct or save",
+        "rule": "missing_value",
+        "detected": true
+      },
+      {
+        "record_id": "REC0678",
+        "error_type": "missing_internal_marks",
+        "column": "internal_marks",
+        "observed": "nan",
+        "expected_detection": "Flag for teacher review; do not auto-correct or save",
+        "rule": "missing_value",
+        "detected": true
+      },
+      {
+        "record_id": "REC0345",
+        "error_type": "non_numeric_theory_marks",
+        "column": "theory_marks",
+        "observed": "Absent",
+        "expected_detection": "Flag for teacher review; do not auto-correct or save",
+        "rule": "non_numeric",
+        "detected": true
+      },
+      {
+        "record_id": "REC0633",
+        "error_type": "non_numeric_internal_marks",
+        "column": "internal_marks",
+        "observed": "twenty",
+        "expected_detection": "Flag for teacher review; do not auto-correct or save",
+        "rule": "non_numeric",
+        "detected": true
+      },
+      {
+        "record_id": "REC0135",
+        "error_type": "total_mismatch",
+        "column": "total_marks",
+        "observed": "60.0",
+        "expected_detection": "Flag for teacher review; do not auto-correct or save",
+        "rule": "total_mismatch",
+        "detected": true
+      },
+      {
+        "record_id": "REC0612",
+        "error_type": "missing_total_marks",
+        "column": "total_marks",
+        "observed": "nan",
+        "expected_detection": "Flag for teacher review; do not auto-correct or save",
+        "rule": "missing_total",
+        "detected": true
+      },
+      {
+        "record_id": "DUP001",
+        "error_type": "duplicate_student_subject_record",
+        "column": "student_id, class, exam_type, subject",
+        "observed": "Duplicate record (DUP001)",
+        "expected_detection": "Flag duplicate record for teacher review",
+        "rule": "duplicate_record",
+        "detected": true
+      },
+      {
+        "record_id": "DUP002",
+        "error_type": "duplicate_student_subject_record",
+        "column": "student_id, class, exam_type, subject",
+        "observed": "Duplicate record (DUP002)",
+        "expected_detection": "Flag duplicate record for teacher review",
+        "rule": "duplicate_record",
+        "detected": true
+      },
+      {
+        "record_id": "DUP003",
+        "error_type": "duplicate_student_subject_record",
+        "column": "student_id, class, exam_type, subject",
+        "observed": "Duplicate record (DUP003)",
+        "expected_detection": "Flag duplicate record for teacher review",
+        "rule": "duplicate_record",
+        "detected": true
+      }
+    ],
+    "non_injected_flagged_record_ids": [
+      "REC0158",
+      "REC0167",
+      "REC0218",
+      "REC0260",
+      "REC0300",
+      "REC0375",
+      "REC0386",
+      "REC0443",
+      "REC0478",
+      "REC0557",
+      "REC0567"
+    ],
+    "non_injected_flags_count": 11,
+    "error_file_rows": 703,
+    "error_file_total_flags": 28,
+    "error_file_hard_flags": 20,
+    "error_file_review_flags": 8,
+    "clean_file_rows": 700,
+    "clean_file_flags_count": 8,
+    "clean_file_hard_flags_count": 0,
+    "clean_file_statistical_flags_count": 8
+  },
+  "messages_eval": {
+    "total_messages": 60,
+    "grounding_rate": 100.0,
+    "ambiguous_names_silently_guessed": 0,
+    "review_block_flagged_share": 100.0,
+    "llm_mode_distribution": {
+      "gemini": 60
+    },
+    "language_metrics": {
+      "en": {
+        "class": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "absent_students": {
+          "precision": 0.9642857142857143,
+          "recall": 0.9642857142857143,
+          "f1": 0.9642857142857143
+        },
+        "topic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "homework": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "overall_macro_precision": 0.9928571428571429,
+        "overall_macro_recall": 0.9928571428571429,
+        "overall_macro_f1": 0.9928571428571429
+      },
+      "hi": {
+        "class": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "absent_students": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "topic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "homework": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "overall_macro_precision": 1.0,
+        "overall_macro_recall": 1.0,
+        "overall_macro_f1": 1.0
+      },
+      "hinglish": {
+        "class": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "absent_students": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "topic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "homework": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "overall_macro_precision": 1.0,
+        "overall_macro_recall": 1.0,
+        "overall_macro_f1": 1.0
+      }
+    },
+    "overall_metrics": {
+      "class": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "date": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "absent_students": {
+        "precision": 0.9878048780487805,
+        "recall": 0.9878048780487805,
+        "f1": 0.9878048780487805
+      },
+      "topic": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "homework": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "macro_precision": 0.9975609756097562,
+      "macro_recall": 0.9975609756097562,
+      "macro_f1": 0.9975609756097562
+    },
+    "failures": []
+  }
+}

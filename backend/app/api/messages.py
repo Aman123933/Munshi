@@ -73,6 +73,11 @@ class ConfirmRequest(BaseModel):
     edits: Dict[str, Any] = Field(default_factory=dict)       # field_id -> new_value
 
 
+class RecheckRequest(BaseModel):
+    field_id: str
+    value: str
+
+
 class ConfirmResponse(BaseModel):
     records: Dict[str, int]
     drafts: List[Dict[str, Any]]
@@ -239,6 +244,29 @@ def create_message(
     engine_res = run_all(rule_ctx)
 
     message.status = engine_res.status
+
+    # Propagate rule blocks and reviews to corresponding fields
+    for r in engine_res.rule_results:
+        if r.status in ("Block", "Review"):
+            target_type = None
+            if r.rule_id in ("R6", "R5"):
+                target_type = "date"
+            elif r.rule_id == "R2":
+                target_type = "class"
+            elif r.rule_id == "R4":
+                target_type = "stated_count"
+
+            if target_type:
+                for f_resp, f_db in zip(field_items_response, review_fields_db):
+                    if f_resp.type == target_type:
+                        if r.status == "Block" or f_resp.status != "Block":
+                            f_resp.status = r.status
+                            f_resp.reason = r.reason
+                            f_resp.rule_id = r.rule_id
+                            f_db.status = r.status
+                            f_db.reason = r.reason
+                            f_db.rule_id = r.rule_id
+
     db.add_all(review_fields_db)
     db.commit()
 
@@ -327,6 +355,141 @@ def get_message_review(
         extra={"subject": teacher.subject},
     )
     engine_res = run_all(rule_ctx)
+
+    return ReviewObject(
+        message_id=message.id,
+        text=message.text,
+        status=message.status,
+        llm_mode=message.llm_mode,
+        fields=review_fields,
+        rule_results=engine_res.rule_results,
+    )
+
+
+@router.post("/messages/{message_id}/recheck", response_model=ReviewObject)
+def recheck_field(
+    message_id: str,
+    req: RecheckRequest,
+    current_user: Teacher = Depends(get_current_user),
+    db: Session = Depends(get_db),
+):
+    """
+    POST /api/messages/{id}/recheck {field_id, value} -> ReviewObject
+    Updates the edited field value, re-verifies spans, roster, and rules R1-R9.
+    """
+    message = db.query(Message).filter(Message.id == message_id).first()
+    if not message:
+        raise HTTPException(status_code=404, detail="Message not found.")
+
+    target_field = (
+        db.query(ExtractionField)
+        .filter(ExtractionField.id == req.field_id, ExtractionField.message_id == message_id)
+        .first()
+    )
+    if not target_field:
+        raise HTTPException(status_code=404, detail="Field not found.")
+
+    target_field.value = req.value
+    target_field.status = "OK"
+    target_field.reason = None
+    db.commit()
+
+    # Re-fetch all fields
+    fields_db = (
+        db.query(ExtractionField)
+        .filter(ExtractionField.message_id == message_id)
+        .all()
+    )
+
+    class_label = None
+    date_val = date.today().isoformat()
+    assigned_classes = [a.class_label for a in current_user.assignments]
+    if not class_label and len(assigned_classes) == 1:
+        class_label = assigned_classes[0]
+
+    for f in fields_db:
+        if f.field_type == "class" and not class_label:
+            class_label = f.value.upper()
+        elif f.field_type == "date" and f.value:
+            date_val = f.value
+
+    review_fields: List[ReviewFieldItem] = []
+    extracted_fields_for_rules: List[ExtractedField] = []
+
+    for f in fields_db:
+        cands = json.loads(f.candidates) if f.candidates else []
+        resolved_sid = f.resolved_student_id
+
+        # If this is the edited field and it's absent_student, re-resolve
+        if f.id == req.field_id and f.field_type == "absent_student" and class_label:
+            res = resolve_name(
+                roman_name=f.roman or f.value,
+                quote=f.quote,
+                class_label=class_label,
+                db=db,
+            )
+            cands = res.get("candidates", [])
+            f.candidates = json.dumps(cands) if cands else None
+            resolved_sid = res.get("resolved_student_id")
+            f.resolved_student_id = resolved_sid
+            if res.get("status") != "resolved":
+                f.status = "Review"
+                f.reason = res.get("reason")
+                f.rule_id = "R3"
+            else:
+                f.status = "OK"
+                f.reason = None
+                f.rule_id = "R1"
+            db.commit()
+
+        review_fields.append(
+            ReviewFieldItem(
+                id=f.id,
+                type=f.field_type,
+                label=f.label,
+                value=f.value,
+                quote=f.quote,
+                roman=f.roman,
+                start=f.start,
+                end=f.end,
+                status=f.status,
+                reason=f.reason,
+                rule_id=f.rule_id,
+                candidates=cands,
+                resolved_student_id=resolved_sid,
+            )
+        )
+        extracted_fields_for_rules.append(
+            ExtractedField(
+                type=f.field_type,
+                value=f.value,
+                quote=f.quote,
+                roman=f.roman,
+                start=f.start,
+                end=f.end,
+                status=f.status,
+                reason=f.reason,
+                rule_id=f.rule_id,
+            )
+        )
+
+    teacher = db.query(Teacher).filter(Teacher.teacher_id == message.teacher_id).first() or current_user
+    rule_ctx = RuleContext(
+        db=db,
+        school_id=teacher.school_id,
+        teacher_id=teacher.teacher_id,
+        teacher=build_teacher_context_dict(teacher),
+        class_label=class_label,
+        date_str=date_val,
+        today=date.today().isoformat(),
+        text=message.normalized_text or message.text,
+        fields=extracted_fields_for_rules,
+        extra={"subject": teacher.subject},
+    )
+    engine_res = run_all(rule_ctx)
+
+    message.status = engine_res.status
+    db.commit()
 
     return ReviewObject(
         message_id=message.id,

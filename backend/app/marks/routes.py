@@ -67,7 +67,7 @@ def _persist_flags(
     ]
 
 
-@router.post("/upload", response_model=MarksUploadResponse)
+@router.post("/upload", response_model=MarksUploadResponse, response_model_by_alias=True)
 async def upload_marks(
     file: UploadFile = File(...),
     db: Session = Depends(get_db),
@@ -98,7 +98,7 @@ async def upload_marks(
     )
 
 
-@router.get("/flags", response_model=List[FlagResponse])
+@router.get("/flags", response_model=List[FlagResponse], response_model_by_alias=True)
 def get_flags(
     upload_id: Optional[str] = Query(None, description="Optional upload ID to filter flags"),
     db: Session = Depends(get_db),
@@ -129,7 +129,7 @@ def get_flags(
     ]
 
 
-@router.get("/demo", response_model=MarksUploadResponse)
+@router.get("/demo", response_model=MarksUploadResponse, response_model_by_alias=True)
 def run_demo_marks_check(
     db: Session = Depends(get_db),
 ):

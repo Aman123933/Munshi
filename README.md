@@ -94,5 +94,35 @@ Open [http://localhost:5173](http://localhost:5173) in your browser. The fronten
 
 ---
 
+## Evaluation Benchmark Harness
+
+The evaluation harness in `eval/` tests the real pipeline and produces measured results only.
+
+### 1. Teacher Message Benchmark (`eval/run_messages.py`)
+Runs 60 labelled test messages (20 English, 20 Hindi in Devanagari, 20 Hinglish) against the real pipeline (LLM extraction, span verification, RapidFuzz roster resolution, and R1–R9 rules):
+```bash
+# Run offline using cache (deterministic and instant)
+python eval/run_messages.py --offline
+
+# Run live with Gemini API (requires GEMINI_API_KEY, 5s delay between requests)
+python eval/run_messages.py --delay 5
+```
+
+### 2. Marks Pre-flight Benchmark (`eval/score_marks.py`)
+Evaluates the marks checker against `data/munshi_error_ground_truth.csv` and the clean baseline:
+```bash
+python eval/score_marks.py
+```
+
+### 3. Benchmark Reports
+Both scripts write and update:
+- [`eval/results.json`](eval/results.json): Full machine-readable metrics, field precision/recall matrices, and failure logs.
+- [`eval/RESULTS.md`](eval/RESULTS.md): Formatted summary report with KPI tables, safety metrics, and run metadata (`date`, `model_name`, `PROMPT_VERSION`).
+
+See [`eval/README.md`](eval/README.md) for full benchmark documentation.
+
+---
+
 ## Documentation
 - See [`docs/CONTEXT.md`](docs/CONTEXT.md) for the project specification, 9-step pipeline, R1–R9 rules, database schema, and API contracts.
+- See [`eval/RESULTS.md`](eval/RESULTS.md) for the latest benchmark evaluation results.

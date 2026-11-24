@@ -45,10 +45,12 @@ export default function ReviewScreen({
     );
   }, [review.fields, resolutions]);
 
-  // Compute block-level rule fields
+  // Compute block-level rule fields (both field-level and message/rule-level)
   const blockedFields = useMemo(() => {
-    return review.fields.filter((f) => f.status === 'Block');
-  }, [review.fields]);
+    const fromFields = review.fields.filter((f) => f.status === 'Block');
+    const fromRules = (review.rule_results || []).filter((r) => r.status === 'Block');
+    return [...fromFields, ...fromRules];
+  }, [review.fields, review.rule_results]);
 
   // Number of items left to resolve
   const itemsLeft = unresolvedCandidates.length + blockedFields.length;
@@ -65,7 +67,9 @@ export default function ReviewScreen({
     const list = [];
     if (blockedFields.length > 0) {
       blockedFields.forEach((bf) => {
-        list.push(`Block Violation: ${bf.label || bf.type} (${bf.value}) — ${bf.reason || 'Blocked by rule'}`);
+        const identifier = bf.label || bf.type || bf.rule_id || 'Rule';
+        const valStr = bf.value ? ` (${bf.value})` : '';
+        list.push(`Block Violation: ${identifier}${valStr} — ${bf.reason || 'Blocked by rule'}`);
       });
     }
     if (unresolvedCandidates.length > 0) {

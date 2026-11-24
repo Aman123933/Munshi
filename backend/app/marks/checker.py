@@ -149,15 +149,28 @@ def map_columns(df: pd.DataFrame) -> Tuple[pd.DataFrame, Dict[str, str], List[st
     return mapped_df, col_mapping, unmapped
 
 
+def _clean_cell_str(val: Any) -> str:
+    """Safely convert cell value to string; treat NaN/None as empty string."""
+    if val is None or pd.isna(val):
+        return ""
+    s = str(val).strip()
+    if s.lower() in ("nan", "none", "<na>"):
+        return ""
+    return s
+
+
 def _parse_float(val: Any) -> Optional[float]:
     """Safely parse a value as float; return None if empty or invalid."""
-    if val is None:
+    if val is None or pd.isna(val):
         return None
     s = str(val).strip()
-    if not s:
+    if not s or s.lower() in ("nan", "none", "<na>"):
         return None
     try:
-        return float(s)
+        f = float(s)
+        if np.isnan(f):
+            return None
+        return f
     except ValueError:
         return None
 
@@ -286,12 +299,12 @@ def check_marks_dataframe(
 
         grp_info = group_stats.get((class_val, sec_val, subject_val))
 
-        raw_th = str(row.get("theory_marks", "")).strip()
-        raw_th_max = str(row.get("theory_max_marks", "")).strip()
-        raw_int = str(row.get("internal_marks", "")).strip()
-        raw_int_max = str(row.get("internal_max_marks", "")).strip()
-        raw_tot = str(row.get("total_marks", "")).strip()
-        raw_tot_max = str(row.get("total_max_marks", "")).strip()
+        raw_th = _clean_cell_str(row.get("theory_marks", ""))
+        raw_th_max = _clean_cell_str(row.get("theory_max_marks", ""))
+        raw_int = _clean_cell_str(row.get("internal_marks", ""))
+        raw_int_max = _clean_cell_str(row.get("internal_max_marks", ""))
+        raw_tot = _clean_cell_str(row.get("total_marks", ""))
+        raw_tot_max = _clean_cell_str(row.get("total_max_marks", ""))
 
         th_val = _parse_float(raw_th)
         th_max_val = _parse_float(raw_th_max)

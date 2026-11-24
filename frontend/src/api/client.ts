@@ -20,9 +20,11 @@ import * as mockApi from './mock';
 
 export type ApiMode = 'mock' | 'live';
 
-// Default mode from Vite env or fallback to 'mock'
+// Default mode from Vite env or default to 'live'
 let activeApiMode: ApiMode =
-  (import.meta.env.VITE_API_MODE as ApiMode) || 'mock';
+  ((import.meta.env.VITE_API_MODE as string) || 'live').toLowerCase() === 'mock'
+    ? 'mock'
+    : 'live';
 
 const TOKEN_STORAGE_KEY = 'munshi_auth_token';
 const TEACHER_STORAGE_KEY = 'munshi_active_teacher';
